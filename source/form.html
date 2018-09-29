@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Форма заказа: Мишка</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="page-header__logo" href="#">
+        <img class="page-header__logo-image"src="img/logotype-mobile.svg" width="86" height="35" alt="Магазин товаров ручной работы «Мишка»">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle-menu" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a href="catalog.html">Каталог товаров</a>
+            </li>
+            <li class="site-list__item">
+              <a href="form.html">Вязание на заказ</a>
+            </li>
+            <li class="site-list__item search">
+              <a href="#">Поиск по сайту</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">Корзина: пока пуста</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="form-main">
+      <h1>Вязание на заказ</h1>
+      <p>Мы будем рады воплотить в жизнь ваши пожелания!
+        Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.
+      </p>
+      <form class="form-main__product-form" action="https://echo.htmlacademy.ru" method="POST">
+        <div class="form-main__type">
+          <fieldset>
+            <legend>Тип</legend>
+            <ul class="type-list">
+              <li class="type-item">
+                <input class="visually-hidden type-input" type="radio" name="interior" id="interior" value="Аксессуар для интерьера" checked>
+                <label for="interior">Аксессуар для интерьера</label>
+              </li>
+              <li class="type-item">
+                <input class="visually-hidden type-input" type="radio" name="child-toy" id="child-toy" value="Детская игрушка">
+                <label for="child-toy">Детская игрушка</label>
+              </li>
+          </ul>
+          </fieldset>
+        </div>
+
+      <div class="form-main__color">
+        <fieldset>
+          <legend>Цвет</legend>
+          <ul class="color-list">
+            <li class="color-item">
+              <input class="visually-hidden color-input" type="checkbox" name="white" id="white" value="Белый" checked>
+              <label for="white">Белый</label>
+            </li>
+            <li class="color-item">
+              <input class="visually-hidden color-input" type="checkbox" name="gray" id="gray" value="Серый" checked>
+              <label for="gray"></label>Серый</label>
+            </li>
+            <li class="color-item">
+              <input class="visually-hidden color-input" type="checkbox" name="tiffany" id="tiffany" value="«Тиффани»">
+              <label for="tiffany">«Тиффани»</label>
+            </li>
+            <li class="color-item">
+              <input class="visually-hidden color-input" type="checkbox" name="black" id="black" value="Черный">
+              <label for="black">Черный</label>
+            </li>
+            <li class="color-item">
+              <input class="visually-hidden color-input" type="checkbox" name="pink" id="pink" value="Розовый">
+              <label for="pink">Розовый</label>
+            </li>
+            <li class="color-item">
+              <input class="visually-hidden color-input" type="checkbox" name="orange" id="orange" value="Оранжевый">
+              <label for="orange">Оранжевый</label>
+            </li>
+          </ul>
+        </fieldset>
+      </div>
+
+      <div class="form-main__user-name">
+        <fieldset>
+          <legend>ФИО</legend>
+          <ul class="name__list">
+            <li class="name-item">
+              <legend for="user-name">Имя:</legend>
+              <input class="name-input" type="text" name="user-name" id="user-name" value="Введите ваше имя*">
+            </li>
+            <li class="name-item">
+              <legend for="second-name">Фамилия:</legend>
+              <input class="name-input" type="text" name="second-name" id="second-name" value="Укажите фамилию*">
+            </li>
+            <li class="name-item">
+              <legend for="father-name">Отчество:</legend>
+              <input class="name-input" type="text" name="father-name" id="father-name" value="Отчество, если желаете">
+            </li>
+          </ul>
+        </fieldset>
+      </div>
+
+      <div class="form-main__contacts">
+        <fieldset>
+          <legend>Тел</legend>
+          <input class="contacts-input" type="tel" name="tel-number" id="tel-number" value="+7 ХХХ ХХХ ХХ ХХ*">
+        </fieldset>
+        <fieldset>
+          <legend>e-mail</legend>
+          <input class="contacts-input" type="text" name="email" id="email" value="Ваш Email*">
+        </fieldset>
+      </div>
+
+      <div class="form-main__more-data">
+        <fieldset>
+          <legend>Доп</legend>
+          <textarea name="more-data" id="more-data" rows="5">Опишите все ваши пожелания к заказу</textarea>
+        </fieldset>
+      </div>
+      <p>*Поля обязательны для заполнения</p>
+      <input type="submit" value="Отправить заказ">
+    </form>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__social social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--vkontakte" target="_blank" href="#">Мы в Вконтакте</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" target="_blank" href="#">Мы в Фейсбуке</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--instagram" target="_blank" href="#">Мы в Инстаграме</a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__copyright copyright">
+        <b class="copyright__text">Разработано:</b>
+        <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+      </div>
+    </footer>
+  </body>
+</html>
