@@ -6,7 +6,7 @@
   </head>
   <body>
     <header class="page-header">
-      <a class="page-header__logo">
+      <a class="page-header__logo" href="#">
         <img class="page-header__logo-image"src="img/logotype-mobile.svg" width="86" height="35" alt="Магазин товаров ручной работы «Мишка»">
       </a>
       <nav class="main-nav">
@@ -35,29 +35,32 @@
         <h1>Каталог товаров</h1>
         <ul class="catalog-main__list">
           <li class="catalog-main__item">
-            <h2>Зайчик-попрыгайчик</h2>
+            <a class="catalog-main__item-link" href="#"><h2>Зайчик-попрыгайчик</h2>
             <img class="catalog-main__catalog-image"src="img/catalog-photo1.jpg" width="260" height="195" alt="Фото товара «Зайчик-попрыгайчик»">
+            </a>
             <p>Рост 30 см, вес 200 г</p>
             <div class="catalog-main__cost">
-              1 200 руб.
+              <p>1 200 руб.</p>
               <button class="catalog-main__button visually-hidden" type="button">Добавить в корзину</button>
             </div>
           </li>
           <li class="catalog-main__item">
-            <h2>Корзинка для белья</h2>
+            <a class="catalog-main__item-link" href="#"><h2>Корзинка для белья</h2>
             <img class="catalog-main__catalog-image"src="img/catalog-photo2.jpg" width="260" height="195" alt="Фото товара «Корзинка для белья»">
+            </a>
             <p>Диаметр 15 см, высота 10 см</p>
             <div class="catalog-main__cost">
-              690 руб.
+              <p>690 руб.</p>
               <button class="catalog-main__button visually-hidden" type="button">Добавить в корзину</button>
             </div>
           </li>
           <li class="catalog-main__item">
-            <h2>Большая корзинка игрушек</h2>
+            <a class="catalog-main__item-link" href="#"><h2>Большая корзинка игрушек</h2>
             <img class="catalog-main__catalog-image"src="img/catalog-photo3.jpg" width="260" height="195" alt="Фото товара «Большая корзинка игрушек»">
+            </a>
             <p>Диаметр 30 см, высота 30 см</p>
             <div class="catalog-main__cost">
-              1 500 руб.
+              <p>1 500 руб.</p>
               <button class="catalog-main__button visually-hidden" type="button">Добавить в корзину</button>
             </div>
           </li>
@@ -68,7 +71,9 @@
         <h2>Процесс производства</h2>
         <video class="production-process__video" scr="#" width="260" height="150" preload="metadata" poster="img/video-poster.jpg"></video>
         <p>По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
-        <button class="catalog-main__button-order" type="button">Сделать заказ</button>
+        <div class="catalog-main__button-order">
+          <a class="order-link">Сделать заказ</a>
+        </div>
       </section>
     </main>
 
@@ -76,13 +81,13 @@
       <div class="page-footer__social social">
         <ul class="social__list">
           <li class="social__item">
-            <a class="social__link social__link--vkontakte" href="#">Мы в Вконтакте</a>
+            <a class="social__link social__link--vkontakte" target="_blank" href="#">Мы в Вконтакте</a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--facebook" href="#">Мы в Фейсбуке</a>
+            <a class="social__link social__link--facebook" target="_blank" href="#">Мы в Фейсбуке</a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--instagram" href="#">Мы в Инстаграме</a>
+            <a class="social__link social__link--instagram" target="_blank" href="#">Мы в Инстаграме</a>
           </li>
         </ul>
       </div>
@@ -98,13 +103,13 @@
       <form class="product-size" action="https://echo.htmlacademy.ru" method="POST">
         <p class="product-size__list">Выберите размер:</p>
         <label for="size-s">
-          <input class="size-s" type="checkbox" name="size-s" id="size-s" value="Размер S">S
+          <input class="size" type="radio" name="size-s" id="size-s" value="Размер S">S
         </label>
         <label for="size-m">
-          <input class="size-m" type="checkbox" name="size-m" id="size-m" value="Размер M">M
+          <input class="size" type="radio" name="size-m" id="size-m" value="Размер M">M
         </label>
         <label for="size-l">
-          <input class="size-l" type="checkbox" name="size-l" id="size-l" value="Размер L">L
+          <input class="size" type="radio" name="size-l" id="size-l" value="Размер L">L
         </label>
         <input type="submit" value="Отправить">
       </form>
