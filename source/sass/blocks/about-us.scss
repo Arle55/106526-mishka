@@ -1,0 +1,23 @@
+.about-us {
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  @extend %blacktitle;
+}
+
+.about-us__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.about-us__list-item {
+  font-size: 17px;
+  line-height: 20px;
+  color: black;
+  margin-top: 85px;
+}

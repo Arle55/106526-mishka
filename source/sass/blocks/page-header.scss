@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  width: 322px;
+
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #333333;
+  font-weight: bold;
+
+  background-color: #ffffff;
+}
+
+.page-header {
+  box-shadow: 0px 1px 0 0 #ececec;
+}
+
+.page-header__logo {
+  position: absolute;
+  padding-left: 116px;
+
+  &:hover {
+    opacity: 0.6;
+  }
+  &:active {
+    opacity: 0.3;
+  }
+}
