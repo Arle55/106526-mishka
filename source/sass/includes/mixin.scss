@@ -21,3 +21,25 @@
     color: rgba(255, 255, 255, 0.3);
   }
 }
+
+@mixin form-title {
+  font: {
+    size: 17px;
+    weight: bold;
+    height: 16px;
+  }
+  color: #63d1bb;
+  text-transform: uppercase;
+}
+
+@mixin tick {
+  width: 22px;
+  height: 16px;
+}
+
+@mixin circle {
+	background: #62d1ba;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}

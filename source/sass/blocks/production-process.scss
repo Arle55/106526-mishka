@@ -13,13 +13,6 @@
   margin-bottom: 26px;
 }
 
-.order-link {
-  @include button;
-  width: 259px;
-  height: 52px;
-  text-decoration: none;
-}
-
 .production-text {
   font-size: 13px;
   line-height: 24px;
@@ -31,33 +24,9 @@
   padding-bottom: 0;
 }
 
-/*{
-  width: 192px;
+.catalog-main__button-order .order-link {
+  @include button;
+  width: 259px;
   height: 52px;
-  background-color: #ffffff;
-  border: solid 2px #444444;
-  text-align: center;
-  &:hover {
-    background-color: #444444;
-  }
-  &:active {
-    background-color: #444444;
-  }
-}
-
-.order-link {
   text-decoration: none;
-  outline: none;
-  font-size: 17px;
-  line-height: 1.18;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #444444;
-  &:hover {
-    color: #ffffff;
-  }
-  &:active {
-    color: rgba(255, 255, 255, 0.3);
-  }
 }
-*\
