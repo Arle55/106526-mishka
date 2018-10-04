@@ -4,18 +4,20 @@
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 58px;
-  h2 {
-    font-size: 17px;
-    text-align: right;
-    padding-right: 43px;
-    margin-bottom: 26px;
-  }
-  .order-link {
-    @extend %button;
-    width: 259px;
-    height: 52px;
-    text-decoration: none;
-  }
+}
+
+.production-title {
+  font-size: 17px;
+  text-align: right;
+  padding-right: 43px;
+  margin-bottom: 26px;
+}
+
+.order-link {
+  @include button;
+  width: 259px;
+  height: 52px;
+  text-decoration: none;
 }
 
 .production-text {

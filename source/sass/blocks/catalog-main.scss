@@ -1,11 +1,11 @@
 .catalog-main {
   text-align: left;
-  h1 {
-    @extend %blacktitle;
-    background-color: #f1f1f1;
-    padding-bottom: 74px;
-    margin: 0;
-  }
+}
+
+.catalog-main__title {
+  background-color: #f1f1f1;
+  padding-bottom: 74px;
+  margin: 0;
 }
 
 
@@ -31,14 +31,15 @@
   margin-top: -7px;
   margin-bottom: 0;
   border: solid 1px #ececec;
-  p:not(.item-cost) {
-    font-size: 13px;
-    line-height: 30px;
-    margin-top: 1px;
-    margin-bottom: 45px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
+}
+
+.product-info {
+  font-size: 13px;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 45px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .catalog-main__cost {
@@ -57,18 +58,11 @@
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
-  h2 {
-    margin-top: 20px;
-    margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
 }
 
-.item-cost {
-  padding-top: 25px;
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: bold;
-  color: black;
+.catalog-main__product-name {
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }

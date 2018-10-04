@@ -5,6 +5,7 @@
     <title>Каталог товаров: Мишка</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
@@ -34,7 +35,7 @@
 
     <main class="catalog-main">
       <div class="catalog-main__wrapper">
-        <h1>Каталог товаров</h1>
+        <h1 class="catalog-main__title">Каталог товаров</h1>
         <ul class="catalog-main__list">
           <li class="catalog-main__item">
 
@@ -44,8 +45,8 @@
 
             <div class="catalog-main__item-wrapper">
               <a class="catalog-main__item-link" href="#">
-              <h2>Зайчик-попрыгайчик</h2></a>
-              <p>Рост 30 см, вес 200 г</p>
+              <h2 class="catalog-main__product-name">Зайчик-попрыгайчик</h2></a>
+              <p class="product-info">Рост 30 см, вес 200 г</p>
             </div>
 
             <div class="catalog-main__cost">
@@ -61,8 +62,8 @@
 
             <div class="catalog-main__item-wrapper">
               <a class="catalog-main__item-link" href="#">
-              <h2>Корзинка для белья</h2> </a>
-              <p>Диаметр 15 см, высота 10 см</p>
+              <h2 class="catalog-main__product-name">Корзинка для белья</h2> </a>
+              <p class="product-info">Диаметр 15 см, высота 10 см</p>
             </div>
 
             <div class="catalog-main__cost">
@@ -78,8 +79,8 @@
 
             <div class="catalog-main__item-wrapper">
               <a class="catalog-main__item-link" href="#">
-              <h2>Большая корзинка для игрушек</h2></a>
-              <p>Диаметр 30 см, высота 30 см</p>
+              <h2 class="catalog-main__product-name">Большая корзинка для игрушек</h2></a>
+              <p class="product-info">Диаметр 30 см, высота 30 см</p>
             </div>
 
             <div class="catalog-main__cost">
@@ -91,7 +92,7 @@
       </div>
 
       <section class="production-process">
-        <h2>Процесс производства</h2>
+        <h2 class="production-title">Процесс производства</h2>
         <video class="production-process__video" scr="#" width="260" height="150" preload="metadata" poster="img/video-mobile@1x.jpg"></video>
         <p class="production-text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
         <div class="catalog-main__button-order">
@@ -122,19 +123,22 @@
     </footer>
 
     <section class="catalog-popups">
-      <h2>Добавить в корзину</h2>
+      <h2 class="popup-title">Добавить в корзину</h2>
       <form class="product-size" action="https://echo.htmlacademy.ru" method="POST">
-        <p class="product-size__list">Выберите размер:</p>
-        <label for="size-s">
-          <input class="size" type="radio" name="order-size" id="size-s" value="Размер S">S
-        </label>
-        <label for="size-m">
-          <input class="size" type="radio" name="order-size" id="size-m" value="Размер M">M
-        </label>
-        <label for="size-l">
-          <input class="size" type="radio" name="order-size" id="size-l" value="Размер L">L
-        </label>
+        <div class="product-size__list">
+          <p class="popup-text">Выберите размер:</p>
+          <input class="size" type="radio" name="order-size" id="size-s" value="Размер S">
+          <label for="size-s">S</label>
+
+          <input class="size" type="radio" name="order-size" id="size-m" value="Размер M">
+          <label for="size-m">M</label>
+
+          <input class="size" type="radio" name="order-size" id="size-l" value="Размер L">
+          <label for="size-l">L</label>
+        </div>
+
         <input clss="popups-button" type="submit" value="Добавить">
+
       </form>
     </section>
 

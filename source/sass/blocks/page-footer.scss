@@ -2,31 +2,7 @@
   background-color: #f1f1f1;
 }
 
-.social__list {
-  list-style: none;
-  box-shadow: 0px 1px 0 0 #ececec;
-  margin: 0;
-  padding: 0;
-}
-
-.social__link {
-  display: block;
-  text-decoration: none;
-  outline: none;
-  text-align: center;
-}
-
 .page-footer__copyright {
   margin-top: 28px;
   text-align: center;
-}
-
-.copyright__text {
-  @extend %blacktitle;
-  font-size: 18px;
-}
-
-.copyright__link {
-  text-decoration: none;
-  outline: none;
 }

@@ -2,61 +2,6 @@
   padding-left: 30px;
 }
 
-h2 {
-  @extend %blacktitle;
-}
-
-.slider__item {
-  margin: 0;
-  padding: 0;
-}
-
-.slider__author-name {
-  font-size: 17px;
-  font-weight: bold;
-  line-height: 24px;
-  color: black;
-}
-
-.slider__author-tag {
-  font-size: 15px;
-  line-height: 24px;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-top: 0;
-}
-
-.slider-button {
-  margin-top: 36px;
-  margin-bottom: 38px;
-}
-
-.slider__toggle {
-  margin: 0;
-  padding: 0;
-  width: 130px;
-  height: 52px;
-  background-color: #ffffff;
-  background-image: url(../../img/icon-left-arrow.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  border: solid 1px #ececec;
-  outline: none;
-  &:last-child {
-    margin-left: -5px;
-    background-image: url(../../img/icon-right-arrow.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  &:hover {
-    opacity: 0.6;
-  }
-  &:active {
-    opacity: 0.3;
-  }
-}
-
 .reviews__button {
-  @extend %button;
+  @include button;
 }
