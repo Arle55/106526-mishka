@@ -4,14 +4,13 @@
 
 .form-main__title {
   background-color: #f1f1f1;
-  padding-bottom: 74px;
+  padding-top: 76px;
+  padding-bottom: 80px;
   margin: 0;
   text-align: center;
 }
 
 .form-main__text {
-  margin-left: 30px;
-  margin-right: 48px;
   font-size: 13px;
   line-height: 24px;
 }
@@ -150,4 +149,5 @@ textarea:placeholder-shown {
 
 .form-main input[type=submit] {
   @include button;
+  line-height: 16px;
 }

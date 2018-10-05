@@ -1,8 +1,11 @@
 .about-us {
-  text-align: left;
   padding-left: 30px;
   padding-bottom: 0;
   margin-bottom: 0;
+}
+
+.about-us__title {
+  @include index-title;
 }
 
 .about-us__list {
@@ -14,6 +17,7 @@
 .about-us__list-item {
   font-size: 17px;
   line-height: 20px;
+  text-align: left;
   color: black;
-  margin-top: 85px;
+  padding-top: 85px;
 }

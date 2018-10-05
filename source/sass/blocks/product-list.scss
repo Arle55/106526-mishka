@@ -1,0 +1,22 @@
+.product-list__item {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 29px;
+  padding-right: 185px;
+  text-align: left;
+  background-color:#63d1bb;
+  padding-left: 30px;
+  &:last-child {
+    background-color: #56c3b2;
+  }
+}
+
+.product-list__link {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  line-height: 24px;
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}

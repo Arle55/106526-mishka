@@ -12,9 +12,7 @@
   line-height: 30px;
   text-transform: uppercase;
   padding-top: 36px;
-}
-.popup-text {
-  line-height: 30px;
+  text-align: center;
 }
 
 input[type=radio] {
@@ -23,13 +21,16 @@ input[type=radio] {
 
 .product-size__list label {
   display:inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  width: 82px;
+
   background-color: #ffffff;
   font-size: 17px;
   font-weight: bold;
-  line-height: 50px;
+  line-height: 16px;
   color: #444444;
-  width: 82px;
-  height: 52px;
   border: solid 2px rgba(68, 68, 68, 0.1);
   &:hover {
     border: solid 2px rgba(68, 68, 68, 0.3);

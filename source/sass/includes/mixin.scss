@@ -1,13 +1,13 @@
 @mixin button {
   font: {
     size: 17px;
-    height: 16px;
     weight: bold;
   }
   color: #444444;
   text-align: center;
   width: 259px;
-  height: 52px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: #ffffff;
   border: solid 2px #444444;
   text-transform: uppercase;
@@ -22,12 +22,19 @@
   }
 }
 
+@mixin index-title {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+
 @mixin form-title {
   font: {
     size: 17px;
     weight: bold;
-    height: 16px;
   }
+  line-height: 16px;
   color: #63d1bb;
   text-transform: uppercase;
 }

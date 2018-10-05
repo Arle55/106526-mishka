@@ -1,5 +1,5 @@
 @import "includes/normalize.scss";
-@import "includes/commos.scss";
+@import "includes/common.scss";
 @import "includes/mixin.scss";
 @import "blocks/visually-hidden.scss";
 @import "blocks/page-header.scss";
@@ -7,15 +7,19 @@
 @import "blocks/site-list.scss";
 @import "blocks/page-main.scss";
 @import "blocks/product-main.scss";
+@import "blocks/product-list.scss";
+@import "blocks/contacts.scss";
 @import "blocks/product-week.scss";
 @import "blocks/about-us.scss";
 @import "blocks/reviews.scss";
 @import "blocks/slider.scss";
+@import "blocks/slider-button.scss";
 @import "blocks/write-us.scss";
 @import "blocks/page-footer.scss";
 @import "blocks/social.scss";
 @import "blocks/copyright.scss";
 @import "blocks/catalog-main.scss";
+@import "blocks/product-info.scss";
 @import "blocks/catalog-popups.scss";
 @import "blocks/cost.scss";
 @import "blocks/production-process.scss";

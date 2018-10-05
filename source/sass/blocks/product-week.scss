@@ -1,26 +1,15 @@
 .product-week {
   text-align: left;
-  padding-left: 30px;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
-h3 {
-  padding-bottom: 0;
-  padding-top: 8px;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 17px;
-  line-height: 20px;
-  color: #63d1bb;
-  text-transform: uppercase;
+.product-week__title {
+  @include index-title;
 }
 
-p {
-  font-size: 15px;
+.product-week__text {
   line-height: 24px;
-  color:#444444;
-  font-weight: normal;
 }
 
 .product-week__list {
@@ -29,7 +18,7 @@ p {
   border-collapse: collapse;
 
   font-size: 15px;
-  line-height: 24px;
+  line-height: 20px;
   color:#444444;
   font-weight: normal;
 }
@@ -47,9 +36,10 @@ tr {
   line-height: 24px;
   font-weight: bold;
   color:#444444;
-  text-align: center;
+  text-align: left;
 }
 
 .product-week__button {
   @include button;
+  line-height: 17px;
 }

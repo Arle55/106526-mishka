@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.slider__text {
+  line-height: 30px;
+}
+
 .slider__author-name {
   font-size: 17px;
   font-weight: bold;
@@ -11,17 +15,12 @@
 }
 
 .slider__author-tag {
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 17px;
+  line-height: 30px;
   margin-bottom: 0;
   margin-top: 0;
   padding-bottom: 0;
   padding-top: 0;
-}
-
-.slider-button {
-  margin-top: 36px;
-  margin-bottom: 38px;
 }
 
 .slider__toggle {
