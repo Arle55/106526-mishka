@@ -2,16 +2,19 @@
   <head>
     <meta charset="utf-8">
     <title>Форма заказа: Мишка</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
-      <a class="page-header__logo">
-        <img class="page-header__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Магазин товаров ручной работы «Мишка»">
-      </a>
-      <nav class="main-nav">
+      <div class="header-wrapper">
+        <a class="page-header__logo">
+          <img class="page-header__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Магазин товаров ручной работы «Мишка»">
+        </a>
         <button class="main-nav__toggle-menu" type="button">Открыть меню</button>
+      </div>
+      <nav class="main-nav">
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
@@ -106,15 +109,15 @@
       </div>
 
       <div class="form-main__contacts">
-        <label for="tel-number" class="form-title">Тел</label>
+        <label for="tel-number" class="form-title contacts-title">Тел</label>
         <input class="form-main__contacts-item form-main__contacts-item--phone" type="tel" name="tel-number" id="tel-number" placeholder="+7 ХХХ ХХХ ХХ ХХ*">
-        <label for="email" class="form-title">E-mail</label>
+        <label for="email" class="form-title contacts-title">E-mail</label>
         <input class="form-main__contacts-item form-main__contacts-item--email" type="email" name="email" id="email" placeholder="Ваш Email*">
       </div>
 
       <div class="form-main__more-data">
-        <label for="more-data" class="form-title">Доп</label>
-        <textarea name="more-data" id="more-data" rows="5" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+        <label for="more-data" class="form-title data-title">Доп</label>
+        <textarea name="more-data" class="more-data" id="more-data" rows="7" placeholder="Опишите все ваши пожелания к заказу"></textarea>
       </div>
       <p class="important-text">*Поля обязательны для заполнения</p>
       <input type="submit" class="form-button" value="Отправить заказ">

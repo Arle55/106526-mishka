@@ -1,7 +1,15 @@
+.catalog-main {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
 .catalog-main__title {
   background-color: #f1f1f1;
   padding-top: 76px;
   padding-bottom: 74px;
+  padding-left: 42px;
   margin: 0;
 }
 
@@ -46,10 +54,22 @@
 }
 
 .catalog-main__product-name {
-  padding: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+
   margin-top: 31px;
 
   font-size: 17px;
   line-height: 24px;
   text-align: left;
+}
+
+.catalog-main__product-info {
+  font-size: 13px;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 27px;
+  padding-top: 0;
+  padding-bottom: 0;
 }

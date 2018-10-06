@@ -1,17 +1,27 @@
 .about-us {
-  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+
+  width: 320px;
+  margin: 0 auto;
+
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
 .about-us__title {
   @include index-title;
+  margin-top: 76px;
+  margin-bottom: 0;
+  padding-left: 30px;
 }
 
 .about-us__list {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 30px;
 }
 
 .about-us__list-item {
@@ -20,4 +30,18 @@
   text-align: left;
   color: black;
   padding-top: 85px;
+  padding-right: 110px;
+}
+
+.about-us__list li:nth-child(4) {
+  padding-right: 79px;
+}
+
+.about-us__list li:nth-child(5) {
+  padding-right: 38px;
+}
+
+.about-us__list li:nth-child(6) {
+  padding-right: 91px;
+  margin-bottom: 61px;
 }

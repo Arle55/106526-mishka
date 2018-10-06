@@ -1,4 +1,6 @@
 .social__list {
+  display:flex;
+  justify-content: flex-start;
   list-style: none;
   box-shadow: 0px 1px 0 0 #ececec;
   margin: 0;

@@ -6,6 +6,13 @@
   text-align: center;
 }
 
+.catalog-popups {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
 .popup-title {
   font-size: 25px;
   font-weight: bold;

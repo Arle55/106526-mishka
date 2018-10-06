@@ -5,6 +5,10 @@
 
 .slider__text {
   line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .slider__author-name {
@@ -12,6 +16,9 @@
   font-weight: bold;
   line-height: 24px;
   color: black;
+  padding-left: 30px;
+  margin-top: 40px;
+  margin-bottom: 0;
 }
 
 .slider__author-tag {
@@ -21,6 +28,7 @@
   margin-top: 0;
   padding-bottom: 0;
   padding-top: 0;
+  padding-left: 30px;
 }
 
 .slider__toggle {
