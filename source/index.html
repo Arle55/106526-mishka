@@ -9,29 +9,40 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="header-wrapper">
-      <a class="page-header__logo">
-        <img class="page-header__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Магазин товаров ручной работы «Мишка»">
-      </a>
-      <button class="main-nav__toggle-menu" type="button">Открыть меню</button>
-      </div>
       <nav class="main-nav">
         <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
+          <div class="logo">
+            <a class="page-header__logo">
+              <img class="page-header__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Магазин товаров ручной работы «Мишка»">
+            </a>
+            <button class="toggle-menu" type="button">Открыть меню</button>
+          </div>
+          <ul class="site-list">
             <li class="site-list__item">
               <a class ="site-list__item-link" href="catalog.html">Каталог товаров</a>
             </li>
             <li class="site-list__item">
               <a class ="site-list__item-link" href="form.html">Вязание на заказ</a>
             </li>
-            <li class="site-list__item search">
-              <a class ="site-list__item-link" href="#">Поиск по сайту</a>
+          </ul>
+          <ul class="site-list__items">
+            <li class="site-list__items-item site-list__item-search">
+              <a class ="site-list__item-link site-list__link-search" href="#">Поиск по сайту</a>
             </li>
-            <li class="site-list__item">
-              <a class ="site-list__item-link"href="#">Корзина: пока пуста</a>
+            <li class="site-list__items-item site-list__item-basket">
+              <a class ="site-list__item-link site-list__link-busket"href="#">Корзина: пока пуста</a>
             </li>
           </ul>
-        </div>
+          <ul class="site-items">
+            <li class="site-items__item">
+              <a class ="" href="#">Новые поступления</a>
+            </li>
+            <li class="site-items__item">
+              <a class =""href="#">Распродажа</a>
+            </li>
+          </ul>
+        <p class="site-list__dilivery-text">Бесплатная доставка по России</p>
+      </div>
       </nav>
     </header>
 
@@ -51,8 +62,14 @@
       </section>
 
       <section class="product-week">
-        <h2 class="product-week__title">Вязаные корзинки</h2>
-        <h3 class="product-week__week-title">Товар недели</h3>
+        <div class="product-week__first-column">
+          <h2 class="product-week__title">Вязаные корзинки</h2>
+          <h3 class="product-week__week-title">Товар недели</h3>
+        </div>
+
+        <div class="product-week__column-wrapper">
+
+        <div class="product-week__second-column">
         <p class="product-week__text">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
 
         <table class="product-week__list">
@@ -70,22 +87,31 @@
           </tr>
         </table>
 
-        <img class="product-week__product-image" src="img/triple-set-mobile@1x.jpg" width="260" height="315" alt="Изображение «Вязаные корзинки»">
         <p class="product-week__price">Цена: 990 руб.</p>
 
         <button class="product-week__button main-button" type="button">Заказать</button>
+        </div>
+
+        <div class="product-week__third-column">
+        <img class="product-week__product-image" src="img/triple-set-mobile@1x.jpg" width="260" height="315" alt="Изображение «Вязаные корзинки»">
+        </div>
+        </div>
       </section>
 
       <section class="about-us">
         <h2 class="about-us__title">Коротко о нас:</h2>
-        <ul class="about-us__list">
-          <li class="about-us__list-item">Экологически чистые материалы</li>
-          <li class="about-us__list-item">Скандинавский стиль по российской цене</li>
-          <li class="about-us__list-item">Увеличивает лайки на фотографиях</li>
-          <li class="about-us__list-item">Связано вручную с любовью и умилением</li>
-          <li class="about-us__list-item">Поддержка отечественного производителя</li>
-          <li class="about-us__list-item">Поставляется в подарочной упаковке</li>
+        <div class="about-us__list-wrapper">
+        <ul class="about-us__list-first">
+          <li class="about-us__first-item">Экологически чистые материалы</li>
+          <li class="about-us__first-item">Скандинавский стиль по российской цене</li>
+          <li class="about-us__first-item">Увеличивает лайки на фотографиях</li>
         </ul>
+        <ul class="about-us__list-second">
+          <li class="about-us__second-item">Связано вручную с любовью и умилением</li>
+          <li class="about-us__second-item">Поддержка отечественного производителя</li>
+          <li class="about-us__second-item">Поставляется в подарочной упаковке</li>
+        </ul>
+        </div>
       </section>
 
       <section class="reviews">
@@ -103,10 +129,10 @@
                 <p class="slider__author-tag">
                   @misssssiskras</p>
             </blockquote>
-            <p class="slider__toggles slider-button">
+            <div class="slider__toggles slider-button">
               <button class="slider__toggle" type="button"></button>
               <button class="slider__toggle" type="button"></button>
-            </p>
+            </div>
           </div>
         </div>
         <button class="reviews__button" type="button">Написать</button>

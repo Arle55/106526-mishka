@@ -1,9 +1,18 @@
 .main-nav {
-  font-size: 17px;
-  line-height: 24px;
+  width: 320px;
+  margin: 0 auto;
 }
 
-.main-nav__toggle-menu {
-  width: 100px;
-  margin: 0 left;
+@media (min-width: 768px) {
+  .main-nav {
+    width: auto;
+    margin: 0;
+  }
+  .main-nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 768px;
+    margin: 0 auto;
+    border: 1px solid blue;
+  }
 }

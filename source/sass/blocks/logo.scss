@@ -1,0 +1,11 @@
+.logo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    margin: 0;
+    padding: 0;
+  }
+}

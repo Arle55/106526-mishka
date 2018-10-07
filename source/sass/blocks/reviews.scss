@@ -19,3 +19,9 @@
   line-height: 20px;
   margin: 0 auto;
 }
+
+@media (min-width: 768px) {
+  .reviews {
+    width: 768px;
+  }
+}

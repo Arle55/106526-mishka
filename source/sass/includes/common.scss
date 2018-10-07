@@ -35,6 +35,14 @@ p {
   font-weight: normal;
 }
 
+tr {
+  box-shadow: 0px 1px 0 0 #ececec, inset 0px 1px 0 0 #ececec;
+}
+
+tr:nth-child(1) {
+  box-shadow: none;
+}
+
 input {
   line-height: 18px;
 }
@@ -57,8 +65,4 @@ textarea::-webkit-input-placeholder {
   padding-top: 18px;
   padding-left: 17px;
 
-}
-
-tr {
-  box-shadow: 0px 1px 0 0 #ececec;
 }

@@ -14,7 +14,7 @@
   padding-left: 30px;
 }
 
-.about-us__list {
+.about-us__list-first {
   list-style: none;
   margin: 0;
   padding-top: 0;
@@ -22,7 +22,7 @@
   padding-left: 30px;
 }
 
-.about-us__list-item {
+.about-us__first-item {
   font-size: 17px;
   line-height: 20px;
   text-align: left;
@@ -31,15 +31,98 @@
   padding-right: 110px;
 }
 
-.about-us__list li:nth-child(4) {
+.about-us__list-second {
+  list-style: none;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 30px;
+}
+
+.about-us__second-item {
+  font-size: 17px;
+  line-height: 20px;
+  text-align: left;
+  color: black;
+  padding-top: 85px;
+}
+
+.about-us__list-second li:nth-child(1) {
   padding-right: 79px;
 }
 
-.about-us__list li:nth-child(5) {
+.about-us__list-second li:nth-child(2) {
   padding-right: 38px;
 }
 
-.about-us__list li:nth-child(6) {
+.about-us__list-second li:nth-child(3) {
   padding-right: 91px;
   margin-bottom: 61px;
+}
+
+@media (min-width: 768px) {
+  .about-us {
+    width: 668px;
+  }
+
+  .about-us__title {
+    font-size: 43px;
+    line-height: 50px;
+    margin-top: 60px;
+    margin-bottom: 104px;
+    padding-left: 0;
+  }
+
+  .about-us__list-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .about-us__list-first {
+    width: 235px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+  }
+
+  .about-us__first-item {
+    padding-right: 0;
+    font-size: 20px;
+    line-height: 22px;
+    padding-top: 0;
+    padding-bottom: 112px;
+  }
+
+  .about-us__list-second {
+    width: 295px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 99px;
+  }
+
+  .about-us__second-item {
+    padding-right: 0;
+    font-size: 20px;
+    line-height: 22px;
+    padding-top: 0;
+    padding-bottom: 112px;
+  }
+
+  .about-us__list-second li:nth-child(1) {
+    padding-right: 50px;
+  }
+
+  .about-us__list-second li:nth-child(2) {
+    padding-right: 0;
+  }
+
+  .about-us__list-second li:nth-child(3) {
+    padding-right: 0;
+    padding-bottom: 84px;
+  }
+
+  .about-us__list-first li:last-child {
+    padding-bottom: 84px;
+  }
 }
