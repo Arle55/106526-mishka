@@ -1,6 +1,5 @@
 @mixin button {
   font: {
-    size: 17px;
     weight: bold;
   }
   color: #444444;
@@ -45,8 +44,8 @@
 }
 
 @mixin circle {
-	background: #62d1ba;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+  background-color: #62d1ba;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
 }

@@ -8,25 +8,10 @@
 
 .page-header__logo {
   margin: 0 auto;
-
   &:hover {
     opacity: 0.6;
   }
   &:active {
     opacity: 0.3;
   }
-}
-
-.header-wrapper {
-  width: 320px;
-  display: flex;
-  justify-content: flex-start;
-  margin: 0 auto;
-  padding-top: 22px;
-  padding-bottom: 22px;
-}
-
-.main-nav__toggle-menu {
-  width: 100px;
-  margin: 0 left;
 }

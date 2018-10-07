@@ -34,3 +34,31 @@ p {
   color:#444444;
   font-weight: normal;
 }
+
+input {
+  line-height: 18px;
+}
+
+input[type=radio] {
+  display:none;
+}
+
+fieldset {
+  border: none;
+}
+
+input::-webkit-input-placeholder {
+  opacity: 0.3;
+  font-size: 17px;
+}
+textarea::-webkit-input-placeholder {
+  opacity: 0.3;
+  font-size: 17px;
+  padding-top: 18px;
+  padding-left: 17px;
+
+}
+
+tr {
+  box-shadow: 0px 1px 0 0 #ececec;
+}

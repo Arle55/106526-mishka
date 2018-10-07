@@ -44,12 +44,12 @@
           <fieldset>
             <legend class="form-title">Тип</legend>
             <ul class="type-list">
-              <li class="type-item">
-                <input class="visually-hidden type-input" type="radio" name="type-button" id="interior" value="Аксессуар для интерьера" checked>
+              <li class="type-list__type-item">
+                <input class="visually-hidden type-list__type-input" type="radio" name="type-button" id="interior" value="Аксессуар для интерьера" checked>
                 <label for="interior">Аксессуар для интерьера</label>
               </li>
-              <li class="type-item">
-                <input class="visually-hidden type-input" type="radio" name="type-button" id="child-toy" value="Детская игрушка">
+              <li class="type-list__type-item">
+                <input class="visually-hidden type-list__type-input" type="radio" name="type-button" id="child-toy" value="Детская игрушка">
                 <label for="child-toy">Детская игрушка</label>
               </li>
           </ul>
@@ -61,28 +61,28 @@
 
           <legend class="form-title">Цвет</legend>
           <ul class="color-list">
-            <li class="color-item">
-              <input class="visually-hidden color-input" type="checkbox" name="white" id="white" value="Белый" checked>
+            <li class="color-list__color-item">
+              <input class="visually-hidden color-list__color-input" type="checkbox" name="white" id="white" value="Белый" checked>
               <label for="white">Белый</label>
             </li>
-            <li class="color-item">
-              <input class="visually-hidden color-input" type="checkbox" name="gray" id="gray" value="Серый" checked>
+            <li class="color-list__color-item">
+              <input class="visually-hidden color-list__color-input" type="checkbox" name="gray" id="gray" value="Серый" checked>
               <label for="gray"></label>Серый</label>
             </li>
-            <li class="color-item">
-              <input class="visually-hidden color-input" type="checkbox" name="tiffany" id="tiffany" value="«Тиффани»">
+            <li class="color-list__color-item">
+              <input class="visually-hidden color-list__color-input" type="checkbox" name="tiffany" id="tiffany" value="«Тиффани»">
               <label for="tiffany">«Тиффани»</label>
             </li>
-            <li class="color-item">
-              <input class="visually-hidden color-input" type="checkbox" name="black" id="black" value="Черный">
+            <li class="color-list__color-item">
+              <input class="visually-hidden color-list__color-input" type="checkbox" name="black" id="black" value="Черный">
               <label for="black">Черный</label>
             </li>
-            <li class="color-item">
-              <input class="visually-hidden color-input" type="checkbox" name="pink" id="pink" value="Розовый">
+            <li class="color-list__color-item">
+              <input class="visually-hidden color-list__color-input" type="checkbox" name="pink" id="pink" value="Розовый">
               <label for="pink">Розовый</label>
             </li>
-            <li class="color-item">
-              <input class="visually-hidden color-input" type="checkbox" name="orange" id="orange" value="Оранжевый">
+            <li class="color-list__color-item">
+              <input class="visually-hidden color-list__color-input" type="checkbox" name="orange" id="orange" value="Оранжевый">
               <label for="orange">Оранжевый</label>
             </li>
           </ul>
@@ -91,35 +91,35 @@
 
       <div class="form-main__user-name">
         <p class="form-title">ФИО</p>
-          <ul class="name__list">
-            <li class="name-item">
+          <ul class="name-list">
+            <li class="name-list__name-item">
               <label for="user-name">Имя:</label>
-              <input class="name-input" type="text" name="user-name" id="user-name" placeholder="Введите ваше имя*">
+              <input class="name-list__name-input" type="text" name="user-name" id="user-name" placeholder="Введите ваше имя*">
             </li>
-            <li class="name-item">
+            <li class="name-list__name-item">
               <label for="second-name">Фамилия:</label>
-              <input class="name-input" type="text" name="second-name" id="second-name" placeholder="Укажите фамилию*">
+              <input class="name-list__name-input" type="text" name="second-name" id="second-name" placeholder="Укажите фамилию*">
             </li>
-            <li class="name-item">
+            <li class="name-list__name-item">
               <label for="father-name">Отчество:</label>
-              <input class="name-input" type="text" name="father-name" id="father-name" placeholder="Отчество, если желаете">
+              <input class="name-list__name-input" type="text" name="father-name" id="father-name" placeholder="Отчество, если желаете">
             </li>
           </ul>
         </fieldset>
       </div>
 
       <div class="form-main__contacts">
-        <label for="tel-number" class="form-title contacts-title">Тел</label>
+        <label for="tel-number" class="form-title form-main__contacts-title">Тел</label>
         <input class="form-main__contacts-item form-main__contacts-item--phone" type="tel" name="tel-number" id="tel-number" placeholder="+7 ХХХ ХХХ ХХ ХХ*">
-        <label for="email" class="form-title contacts-title">E-mail</label>
+        <label for="email" class="form-title form-main__contacts-title">E-mail</label>
         <input class="form-main__contacts-item form-main__contacts-item--email" type="email" name="email" id="email" placeholder="Ваш Email*">
       </div>
 
       <div class="form-main__more-data">
-        <label for="more-data" class="form-title data-title">Доп</label>
-        <textarea name="more-data" class="more-data" id="more-data" rows="7" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+        <label for="more-data" class="form-title form-main__data-title">Доп</label>
+        <textarea name="more-data" class="form-main__data-text" id="more-data" rows="7" placeholder="Опишите все ваши пожелания к заказу"></textarea>
       </div>
-      <p class="important-text">*Поля обязательны для заполнения</p>
+      <p class="form-main__important-text">*Поля обязательны для заполнения</p>
       <input type="submit" class="form-button" value="Отправить заказ">
     </form>
     </main>
