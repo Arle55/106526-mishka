@@ -1,0 +1,28 @@
+.site-list {
+  list-style: none;
+
+  line-height: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.site-list__item {
+  text-align: left;
+  padding-top: 32px;
+  padding-bottom: 30px;
+  padding-left: 76px;
+  box-shadow: 0px 1px 0 0 #ececec;
+}
+
+.site-list__item-link {
+  color: #000000;
+  text-decoration: none;
+
+  &:hover {
+    color:rgba(0, 0, 0, 0.6);
+  }
+  &:active {
+    color: rgba(0, 0, 0, 0.3);
+  }
+}

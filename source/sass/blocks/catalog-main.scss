@@ -1,0 +1,73 @@
+.catalog-main {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.catalog-main__title {
+  background-color: #f1f1f1;
+  padding-top: 76px;
+  padding-bottom: 74px;
+  padding-left: 42px;
+  margin: 0;
+}
+
+
+.catalog-main__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-main__item {
+  margin: 30px 31px 30px 31px;
+  &:hover {
+    box-shadow: 0px 6px 10px 0 rgba(0, 0, 0, 0.1);
+  }
+  &:active {
+    box-shadow: 0px 3px 5px 0 rgba(0, 0, 0, 0.1);
+  }
+}
+
+.catalog-main__item-wrapper {
+  padding-left: 34px;
+  padding-right: 34px;
+  margin-top: -3px;
+  margin-bottom: 0;
+  border: solid 1px #ececec;
+}
+
+.catalog-main__cost {
+  padding-left: 35px;
+  padding-right: 35px;
+  border: solid 1px #ececec;
+  border-top: none;
+  margin-top: -18px;
+}
+
+.catalog-main__item-link {
+  text-decoration: none;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.catalog-main__product-name {
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  margin-top: 31px;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.catalog-main__product-info {
+  font-size: 13px;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 27px;
+  padding-top: 0;
+  padding-bottom: 0;
+}

@@ -1,0 +1,51 @@
+@mixin button {
+  font: {
+    weight: bold;
+  }
+  color: #444444;
+  text-align: center;
+  width: 259px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ffffff;
+  border: solid 2px #444444;
+  text-transform: uppercase;
+  outline: none;
+  &:hover {
+    color: #ffffff;
+    background-color: #444444;
+  }
+  &:active {
+    background-color: #444444;
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+@mixin index-title {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+
+@mixin form-title {
+  font: {
+    size: 17px;
+    weight: bold;
+  }
+  line-height: 16px;
+  color: #63d1bb;
+  text-transform: uppercase;
+}
+
+@mixin tick {
+  width: 22px;
+  height: 16px;
+}
+
+@mixin circle {
+  background-color: #62d1ba;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}

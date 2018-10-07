@@ -1,0 +1,26 @@
+.write-us {
+  padding-top: 19px;
+  padding-bottom: 20px;
+  padding-left: 52px;
+  padding-right: 53px;
+  margin-left: 35px;
+
+  background-color: #ffffff;
+  border: solid 2px #444444;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #444444;
+  &:hover {
+    background-color: #444444;
+    color: #ffffff;
+  }
+  &:active {
+    background-color: #444444;
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
