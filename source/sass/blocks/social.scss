@@ -1,4 +1,4 @@
-.social__list {
+.social-list {
   display:flex;
   justify-content: flex-start;
   list-style: none;
@@ -7,9 +7,15 @@
   padding: 0;
 }
 
-.social__link {
+.social-list__link {
   display: block;
   text-decoration: none;
   outline: none;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .social-list {
+    width: 300px;
+  }
 }

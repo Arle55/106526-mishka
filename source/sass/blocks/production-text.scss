@@ -8,3 +8,24 @@
   padding-top: 0;
   padding-bottom: 0;
 }
+
+@media (min-width: 768px) {
+  .production-text {
+    flex-basis: 668px;
+    font-size: 15px;
+    line-height: 30px;
+    padding-right: 47px;
+    padding-left: 40px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1250px) {
+  .production-text {
+    flex-basis: 159px;
+    width: 223px;
+    padding-left: 0;
+  }
+}

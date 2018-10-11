@@ -5,3 +5,17 @@
   font-weight: bold;
   color: black;
 }
+
+
+@media (min-width: 768px) {
+  .item-cost {
+    font-size: 17px;
+    padding-left: 29px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .item-cost {
+    padding-top: 0;
+  }
+}

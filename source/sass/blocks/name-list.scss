@@ -24,3 +24,48 @@
     box-shadow: inset 0px -2px 0 0 #62d1ba;
   }
 }
+
+@media (min-width: 768px) {
+  .name-list {
+    margin-top: -18px;
+    margin-left: 127px;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .name-list label {
+    margin-right: 25px;
+    font-size: 19px;
+  }
+
+  .name-list__name-input {
+    width: 421px;
+  }
+
+  .name-list__input-second {
+    width: 375px;
+  }
+
+  .name-list__input-third {
+    width: 375px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .name-list {
+    margin-left: 86px;
+  }
+
+  .name-list__name-input {
+    width: 626px;
+  }
+
+  .name-list__input-second {
+    width: 581px;
+  }
+
+  .name-list__input-third {
+    width: 581px;
+  }
+}

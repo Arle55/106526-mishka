@@ -17,11 +17,47 @@
   @include button;
   font-size: 18px;
   line-height: 20px;
-  margin: 0 auto;
+  margin-left: 30px;
 }
 
 @media (min-width: 768px) {
   .reviews {
+    width: 668px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .reviews__title {
+    width: 200px;
+    font-size: 43px;
+    line-height: 50px;
+    padding-left: 0;
+    order: -1;
+  }
+
+  .reviews__button {
+    width: 175px;
+    height: 52px;
+    font-size: 17px;
+    order: -1;
+    margin-left: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+}
+
+@media (min-width: 1250px) {
+  .reviews {
     width: 768px;
+  }
+
+  .reviews__button {
+    margin-top: 10px;
+  }
+
+  .reviews__title {
+    font-size: 53px;
+    line-height: 57px;
   }
 }

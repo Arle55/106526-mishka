@@ -29,6 +29,10 @@
 }
 
 @media (min-width: 768px) {
+  .product-list {
+    margin: 0 52px;
+  }
+
   .product-list__item {
     width: 334px;
     padding-top: 35px;
@@ -43,7 +47,11 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1250px) {
+  .product-list {
+    margin: 0 50px;
+  }
+
   .product-list__item {
     width: 525px;
     padding-top: 35px;
