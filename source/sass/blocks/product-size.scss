@@ -1,5 +1,5 @@
 .product-size__list label {
-  display:inline-block;
+  display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
 
@@ -11,16 +11,17 @@
   line-height: 16px;
   color: #444444;
   border: solid 2px rgba(68, 68, 68, 0.1);
+
   &:hover {
     border: solid 2px rgba(68, 68, 68, 0.3);
   }
 }
 
-.product-size__list input[type=radio]:checked + label {
+.product-size__list input[type="radio"]:checked + label {
   border: solid 2px #62d1ba;
 }
 
-.product-size input[type=submit] {
+.product-size input[type="submit"] {
   font-size: 17px;
   font-weight: bold;
   line-height: 16px;

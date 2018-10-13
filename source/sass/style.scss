@@ -3,9 +3,10 @@
 @import "includes/mixin.scss";
 @import "blocks/visually-hidden.scss";
 @import "blocks/page-header.scss";
-@import "blocks/header-wrapper.scss";
-@import "blocks/main-nav.scss";
+@import "blocks/logo.scss";
+@import "blocks/toggle-menu.scss";
 @import "blocks/site-list.scss";
+@import "blocks/site-items.scss";
 @import "blocks/page-main.scss";
 @import "blocks/contact-item.scss";
 @import "blocks/product-main.scss";
@@ -14,8 +15,8 @@
 @import "blocks/product-week.scss";
 @import "blocks/about-us.scss";
 @import "blocks/reviews.scss";
+@import "blocks/review.scss";
 @import "blocks/slider.scss";
-@import "blocks/slider-button.scss";
 @import "blocks/write-us.scss";
 @import "blocks/page-footer.scss";
 @import "blocks/social.scss";
@@ -29,7 +30,6 @@
 @import "blocks/production-title.scss";
 @import "blocks/production-text.scss";
 @import "blocks/form-main.scss";
-@import "blocks/form-title.scss";
 @import "blocks/type-list.scss";
 @import "blocks/color-list.scss";
 @import "blocks/name-list.scss";

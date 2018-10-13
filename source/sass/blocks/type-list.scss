@@ -33,10 +33,45 @@
 
 .type-list__type-input:checked + label::after {
   content: "";
+
   @include circle;
   position: absolute;
   left: 13px;
   top: 6px;
   width: 16px;
   height: 16px;
+}
+
+@media (min-width: 768px) {
+  .type-list {
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 130px;
+    font-size: 19px;
+    margin-bottom: 66px;
+  }
+
+  .type-list__type-input + label::before {
+    width: 52px;
+    height: 53px;
+    left: 0;
+    top: -20px;
+  }
+
+  .type-list__type-input:checked + label::after {
+    width: 22px;
+    height: 22px;
+    left: 17px;
+    top: -3px;
+  }
+
+  .type-list__type-item:first-child {
+    margin-bottom: 37px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .type-list {
+    margin-left: 86px;
+  }
 }

@@ -1,0 +1,20 @@
+.logo {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+@media (min-width: 772px) {
+  .logo {
+    flex-basis: 204px;
+    padding-left: 51px;
+    box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
+  }
+}
+
+@media (min-width: 1250px) {
+  .logo {
+    flex-basis: 118px;
+    padding-left: 71px;
+    padding-right: 0;
+  }
+}

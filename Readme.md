@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Кристина Хант](https://up.htmlacademy.ru/adaptive/15/user/106526).
-* Наставник: [Ольга Тюлихова] (https://up.htmlacademy.ru/adaptive/15/user/523263).
+* Наставник: [Николай Маркелов](https://up.htmlacademy.ru/adaptive/15/user/235291).
 
 ---
 

@@ -1,0 +1,25 @@
+.site-items {
+  display: none;
+}
+
+@media (min-width: 1250px) {
+  .site-items {
+    display: flex;
+    flex-basis: 450px;
+    list-style: none;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
+  }
+
+  .site-items__item-sale {
+    margin-left: 60px;
+  }
+
+  .site-items__item-new {
+    margin-left: 51px;
+  }
+}
