@@ -14,6 +14,46 @@
   text-align: center;
 }
 
+.form-main__user-title {
+  @include form-title;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.form-main__type-title {
+  @include form-title;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.form-main__color-title {
+  @include form-title;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.form-main__contacts-title {
+  @include form-title;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.form-main__data-title {
+  @include form-title;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
 .form-main__text {
   font-size: 13px;
   line-height: 24px;
@@ -107,6 +147,21 @@
     margin-top: 0;
     font-size: 43px;
     line-height: 50px;
+  }
+
+  .form-main__type-title {
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .form-main__color-title {
+    margin-left: 52px;
+    margin-top: 69px;
+    margin-right: 121px;
+  }
+
+  .form-main__data-title {
+    margin-top: 19px;
   }
 
   .form-main__text {
@@ -238,6 +293,12 @@
   .form-main__title {
     font-size: 53px;
     line-height: 57px;
+  }
+
+  .form-main__color-title {
+    margin-left: 111px;
+    margin-top: 69px;
+    margin-right: 86px;
   }
 
   .form-main__text {

@@ -37,6 +37,14 @@
   font-weight: normal;
 }
 
+.product-week__list-table {
+  box-shadow: 0px 1px 0 0 #ececec, inset 0px 1px 0 0 #ececec;
+}
+
+.product-week__list-table:nth-child(1) {
+  box-shadow: none;
+}
+
 .product-week__list-item {
   width: 67px;
 }
