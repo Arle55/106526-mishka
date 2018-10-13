@@ -6,7 +6,7 @@
   margin: 0 auto;
 }
 
-.page-main__contacts-list{
+.page-main__contacts-list {
   margin-bottom: 42px;
 }
 
@@ -43,9 +43,11 @@
   border-bottom: 1px solid #46c1ae;
   color: #444444;
   font-weight: normal;
+
   &:hover {
     color: #46c1ae;
   }
+
   &:active {
     color: rgba(70, 193, 174, 0.3);
     border-bottom: rgba(70, 193, 174, 0.3);
@@ -68,9 +70,6 @@
 
   .page-main__contacts-list {
     margin-bottom: 61px;
-}
-
-  .page-main__contacts-list {
     display: flex;
   }
 

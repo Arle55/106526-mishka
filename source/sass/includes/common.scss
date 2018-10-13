@@ -2,14 +2,14 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "Open Sans";
   color: #333333;
   font-weight: bold;
 
   background-color: #ffffff;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-size: 27px;
   text-align: left;
 
@@ -35,7 +35,7 @@ a {
 p {
   font-size: 15px;
   line-height: 30px;
-  color:#444444;
+  color: #444444;
   font-weight: normal;
 }
 
@@ -43,8 +43,8 @@ input {
   line-height: 18px;
 }
 
-input[type=radio] {
-  display:none;
+input[type="radio"] {
+  display: none;
 }
 
 fieldset {
@@ -55,10 +55,10 @@ input::-webkit-input-placeholder {
   opacity: 0.3;
   font-size: 17px;
 }
+
 textarea::-webkit-input-placeholder {
   opacity: 0.3;
   font-size: 17px;
   padding-top: 18px;
   padding-left: 17px;
-
 }

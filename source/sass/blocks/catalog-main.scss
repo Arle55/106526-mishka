@@ -22,11 +22,13 @@
 
 .catalog-main__item {
   margin: 30px 31px 30px 31px;
+
   &:hover {
-    box-shadow: 0px 6px 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
   }
+
   &:active {
-    box-shadow: 0px 3px 5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
   }
 }
 
@@ -108,7 +110,7 @@
   .catalog-main__list {
     display: flex;
     flex-wrap: wrap;
-    width: 768px
+    width: 768px;
   }
 
   .catalog-main__item {

@@ -13,6 +13,7 @@
   width: 192px;
   height: 52px;
 }
+
 .production-process__order-link {
   display: block;
   align-items: center;
@@ -29,10 +30,12 @@
   font-weight: bold;
   text-transform: uppercase;
   color: #444444;
+
   &:hover {
     background-color: #444444;
     color: #ffffff;
   }
+
   &:active {
     background-color: #444444;
     color: rgba(255, 255, 255, 0.3);

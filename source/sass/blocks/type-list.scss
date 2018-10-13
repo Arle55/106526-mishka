@@ -33,6 +33,7 @@
 
 .type-list__type-input:checked + label::after {
   content: "";
+
   @include circle;
   position: absolute;
   left: 13px;

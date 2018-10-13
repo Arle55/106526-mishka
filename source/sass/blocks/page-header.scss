@@ -9,9 +9,11 @@
   padding-left: 112px;
   margin-top: 22px;
   margin-bottom: 22px;
+
   &:hover {
     opacity: 0.6;
   }
+
   &:active {
     opacity: 0.3;
   }
@@ -54,6 +56,7 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+
   .page-header__delivery-text {
     flex-basis: 231px;
     display: block;
@@ -77,6 +80,7 @@
   .page-header__content {
     width: 1050px;
   }
+
   .page-header__delivery-text {
     flex-basis: 231px;
     margin-right: 0;

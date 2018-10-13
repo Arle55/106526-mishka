@@ -32,7 +32,7 @@
 
 .color-list__color-input:checked + label::after {
   content: "";
-  background-image: url(../img/icon-tick.svg);
+  background-image: url("img/icon-tick.svg");
   position: absolute;
   left: 0;
   top: -10px;
@@ -58,6 +58,7 @@
     width: 168px;
     margin-top: 66px;
   }
+
   .color-list__color-item:nth-child(2) {
     margin-top: 66px;
   }
@@ -65,6 +66,7 @@
   .color-list__color-item:nth-child(5) {
     margin-bottom: 30px;
   }
+
   .color-list__color-item:nth-child(6) {
     margin-bottom: 30px;
   }
