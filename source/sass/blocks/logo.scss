@@ -1,6 +1,9 @@
 .logo {
+  width: 320px;
+  margin: 0 auto;
   padding-top: 22px;
-  padding-bottom: 22px;
+  padding-bottom: 19px;
+  box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
 }
 
 @media (min-width: 772px) {

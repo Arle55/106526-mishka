@@ -7,7 +7,7 @@
 }
 
 .page-main__contacts-list {
-  margin-bottom: 42px;
+  margin-bottom: 37px;
 }
 
 .page-main__contacts-item {
@@ -65,11 +65,15 @@
 @media (min-width: 772px) {
   .page-main__contacts {
     width: 772px;
-    margin: 0 auto;
+    margin-top: 56px;
+    background-image: url("/img/icon-flag.svg");
+    background-repeat: no-repeat;
+    background-size: 47px 81px;
+    background-position: 671px 75px;
   }
 
   .page-main__contacts-list {
-    margin-bottom: 61px;
+    margin-bottom: 57px;
     display: flex;
   }
 

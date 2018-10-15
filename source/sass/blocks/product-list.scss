@@ -6,9 +6,10 @@
 .product-list__item {
   display: flex;
   flex-direction: column;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 20px;
+  position: relative;
+  padding-top: 27px;
+  padding-bottom: 28px;
+  padding-left: 31px;
   padding-right: 185px;
   text-align: left;
   background-color: #63d1bb;
@@ -16,6 +17,36 @@
   &:last-child {
     background-color: #56c3b2;
   }
+}
+
+.product-list__icon-interior {
+  position: absolute;
+  top: 24px;
+  left: 246px;
+
+  width: 40px;
+  height: 62px;
+
+  fill {
+    background-color: #149080;
+  }
+
+  opacity: .2;
+}
+
+.product-list__icon-toy {
+  position: absolute;
+  top: 21px;
+  left: 235px;
+
+  width: 60px;
+  height: 60px;
+
+  fill {
+    background-color: #149080;
+  }
+
+  opacity: .2;
 }
 
 .product-list__link {
@@ -36,10 +67,10 @@
 
   .product-list__item {
     width: 334px;
-    padding-top: 35px;
+    padding-top: 30px;
     padding-bottom: 34px;
     padding-left: 36px;
-    padding-right: 204px;
+    padding-right: 187px;
   }
 
   .product-list__link {

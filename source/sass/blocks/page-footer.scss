@@ -1,5 +1,6 @@
 .page-footer {
   width: 320px;
+  height: 160px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -8,7 +9,11 @@
 
 .page-footer__copyright {
   margin-top: 28px;
-  text-align: center;
+  position: relative;
+}
+
+.page-footer__logo {
+  display: none;
 }
 
 @media (min-width: 768px) {
@@ -16,16 +21,36 @@
     width: 768px;
     min-height: 143px;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
 
-  .footer-logo {
+  .page-footer__social {
+    width: 122px;
+  }
+
+  .page-footer__logo {
+    display: block;
+    margin-left: 50px;
     order: -1;
   }
 
+  .page-footer__logo-link {
+    display: block;
+    margin-bottom: 25px;
+
+    &:hover {
+      opacity: 0.6;
+    }
+
+    &:active {
+      opacity: 0.3;
+    }
+  }
+
   .page-footer__copyright {
-    margin-top: 0;
+    width: 302px;
+    margin-top: -13px;
   }
 }
 

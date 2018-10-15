@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <title>HTML Academy: Мишка</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -11,14 +11,15 @@
 
 <body>
   <header class="page-header">
-    <div class="page-header__content">
+    <div class="main-nav main-nav--closed main-nav--nojs">
+
+      <button class="toggle-menu" type="button"><span class="visually-hidden">Открыть меню</span></button>
+
       <div class="logo">
-        <a class="page-header__logo">
+        <a class="main-nav__logo">
           <img class="page-header__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Магазин товаров ручной работы «Мишка»">
         </a>
-        <button class="toggle-menu" type="button">Открыть меню</button>
       </div>
-
 
       <ul class="site-list">
         <li class="site-list__item site-list__item-catalog">
@@ -30,10 +31,16 @@
       </ul>
       <ul class="site-list__items">
         <li class="site-list__items-item site-list__item-search">
-          <a class="site-list__item-link site-list__link-search" href="#">Поиск по сайту</a>
+          <a class="site-list__item-link site-list__link-search" href="#">
+            <img class="site-list__icon-search" width="18" height="18" src="/img/icon-search.svg">
+            <span class="site-list__text-search">Поиск по сайту</span>
+          </a>
         </li>
         <li class="site-list__items-item site-list__item-cart">
-          <a class="site-list__item-link site-list__link-cart" href="#">Корзина: пока пуста</a>
+          <a class="site-list__item-link site-list__link-cart" href="#">
+            <img class="site-list__icon-cart" width="21" height="18" src="/img/icon-cart.svg">
+            Корзина: пока пуста
+          </a>
         </li>
       </ul>
       <ul class="site-items">
@@ -48,19 +55,44 @@
       <p class="page-header__delivery-text">Бесплатная доставка по России</p>
     </div>
   </header>
+  <script>
+    var navMain = document.querySelector('.main-nav');
+    var navToggle = document.querySelector('.toggle-menu');
+
+    navMain.classList.remove('main-nav--nojs');
+
+    navToggle.addEventListener('click', function () {
+      if (navMain.classList.contains('main-nav--closed')) {
+        navMain.classList.remove('main-nav--closed');
+        navMain.classList.add('main-nav--opened');
+      } else {
+        navMain.classList.add('main-nav--closed');
+        navMain.classList.remove('main-nav--opened');
+      }
+    });
+  </script>
 
   <main class="page-main">
 
     <section class="product-main">
       <div class="product-main__item">
-        <h1 class="product-main__title">Милые штучки ручной<br> работы для дома</h1>
+        <h1 class="product-main__title">Милые штуки ручной<br> работы для дома</h1>
         <h2 class="visually-hidden">Продукты магазина</h2>
       </div>
       <div class="product-main__item">
         <ul class="product-main__list product-list">
-          <li class="product-list__item"><a class="product-list__link" href="#">Предметы интерьера</a></li>
-          <li class="product-list__item"><a class="product-list__link" href="#">Детские игрушки</a></li>
+          <li class="product-list__item">
+            <img class="product-list__icon-interior" width="40" height="62" src="/img/icon-interior.svg">
+            <a class="product-list__link" href="#">Предметы интерьера</a>
+          </li>
+          <li class="product-list__item">
+            <img class="product-list__icon-toy" width="60" height="60" src="/img/icon-toy.svg">
+            <a class="product-list__link" href="#">Детские игрушки</a>
+          </li>
         </ul>
+        <picture class="product-main__zigzag">
+          <img class="product-main__zigzag-bg" src="/img/bg-zigzag-fill.svg">
+        </picture>
       </div>
     </section>
 
@@ -99,20 +131,42 @@
       <div class="product-week__fourth-column">
         <img class="product-week__product-image" src="img/triple-set-mobile@1x.jpg" width="260" height="315" alt="Изображение «Вязаные корзинки»">
       </div>
+
+      <picture class="product-week__zigzag">
+        <img class="product-week__zigzag-icon" src="/img/bg-zigzag-line.svg" width="319" height="6">
+      </picture>
     </section>
 
     <section class="about-us">
       <h2 class="about-us__title">Коротко о нас:</h2>
       <div class="about-us__list-wrapper">
         <ul class="about-us__list-first">
-          <li class="about-us__first-item">Экологически чистые материалы</li>
-          <li class="about-us__first-item">Скандинавский стиль по российской цене</li>
-          <li class="about-us__first-item">Увеличивает лайки на фотографиях</li>
+          <li class="about-us__first-item">
+            <img class="about-us__flower-icon" src="img/icon-feature-flower.svg">
+            Экологически чистые материалы
+          </li>
+          <li class="about-us__first-item">
+            <img class="about-us__money-icon" src="img/icon-feature-money.svg">
+            Скандинавский стиль по российской цене
+          </li>
+          <li class="about-us__first-item">
+            <img class="about-us__heart-icon" src="img/icon-feature-heart.svg">
+            Увеличивает лайки на фотографиях
+          </li>
         </ul>
         <ul class="about-us__list-second">
-          <li class="about-us__second-item">Связано вручную с любовью и умилением</li>
-          <li class="about-us__second-item">Поддержка отечественного производителя</li>
-          <li class="about-us__second-item">Поставляется в подарочной упаковке</li>
+          <li class="about-us__second-item">
+            <img class="about-us__ball-icon" src="img/icon-feature-ball.svg">
+            Связано вручную с любовью и умилением
+          </li>
+          <li class="about-us__second-item">
+            <img class="about-us__rocket-icon" src="img/icon-feature-rocket.svg">
+            Поддержка отечественного производителя
+          </li>
+          <li class="about-us__second-item">
+            <img class="about-us__gift-icon" src="img/icon-feature-gift.svg">
+            Поставляется в подарочной упаковке
+          </li>
         </ul>
       </div>
     </section>
@@ -172,17 +226,20 @@
         </ul>
       </div>
       <button class="reviews__button" type="button">Написать</button>
-    </section>
+      <picture class="reviews__zigzag">
+        <img class="reviews__zigzag-icon" src="/img/bg-zigzag-line.svg" width="319" height="6">
+      </picture>
+      </section>
 
     <div class="page-main__contacts-wrapper">
     <section class="page-main__contacts contacts">
       <h2 class="contact-title">Контакты</h2>
       <div class="page-main__contacts-list">
-        <div class="contact-item">
+        <div class="contact-item__first">
           <span class="page-main__contacts-item">e-mail:</span>
           <a class="page-main__contacts-link" href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
         </div>
-        <div class="contact-item">
+        <div class="contact-item__second">
           <span class="page-main__contacts-item">адрес:</span>
           <span class="page-main__contact-item">г.Санкт-Петербург,<br> ул. Большая Конюшенная, <br>д. 19/8, офис 101</span>
         </div>
@@ -204,22 +261,26 @@
     <div class="page-footer__social social">
       <ul class="social-list">
         <li class="social-list__item">
-          <a class="social-list__link social__link--vkontakte" target="_blank" href="#">Мы в Вконтакте</a>
+          <a class="social-list__link social__link--instagram" target="_blank" href="#" aria-label="Мы в Инстаграме"></a>
         </li>
         <li class="social-list__item">
-          <a class="social-list__link social__link--facebook" target="_blank" href="#">Мы в Фейсбуке</a>
+          <a class="social-list__link social__link--facebook" target="_blank" href="#" aria-label="Мы в Фейсбуке"></a>
         </li>
         <li class="social-list__item">
-          <a class="social-list__link social__link--instagram" target="_blank" href="#">Мы в Инстаграме</a>
+          <a class="social-list__link social__link--twitter" target="_blank" href="#" aria-label="Мы в Твиттере"></a>
         </li>
       </ul>
     </div>
     <div class="page-footer__copyright copyright">
       <b class="copyright__text">Разработано:</b>
-      <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+      <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive" aria-label="логотип HTML Academy"></a>
     </div>
 
-    <div class="footer-logo">Вот тут будет логотип</div>
+    <div class="page-footer__logo">
+      <a class="page-footer__logo-link">
+        <img class="page-footer__logo-image" src="img/logo-footer.svg" width="102" height="34" alt="Магазин товаров ручной работы «Мишка»">
+      </a>
+    </div>
   </footer>
 
 </body>

@@ -1,9 +1,19 @@
-.contact-item {
+.contact-item__first {
   display: flex;
 }
 
+.contact-item__second {
+  display: flex;
+  margin-top: 29px;
+}
+
 @media (min-width: 772px) {
-  .contact-item {
-    margin-left: 55px;
+  .contact-item__first {
+    margin-left: 51px;
+  }
+
+  .contact-item__second {
+    margin-left: 50px;
+    margin-top: 0;
   }
 }
