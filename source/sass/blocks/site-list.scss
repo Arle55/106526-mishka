@@ -103,7 +103,8 @@
   .site-list__items {
     display: flex;
     flex-basis: 427px;
-    padding-right: 52px;
+    padding-right: 0;
+    padding-left: 34px;
     align-items: center;
     box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
   }
