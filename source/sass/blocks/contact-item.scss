@@ -17,3 +17,16 @@
     margin-top: 0;
   }
 }
+
+@media (min-width: 1250px) {
+  .contact-item__first {
+    margin-left: 174px;
+    margin-top: 2px;
+    margin-right: 0;
+  }
+
+  .contact-item__second {
+    margin-left: 175px;
+    margin-top: 29px;
+  }
+}

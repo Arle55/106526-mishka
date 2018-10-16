@@ -73,3 +73,11 @@
     width: 88px;
   }
 }
+
+@media (min-width: 1250px) {
+  .slider__toggles {
+    margin-top: -114px;
+    margin-right: 150px;
+    margin-bottom: 120px;
+  }
+}

@@ -3,6 +3,21 @@
   font-weight: bold;
   line-height: 30px;
   text-transform: uppercase;
-  padding-top: 36px;
   text-align: center;
+  padding-top: 8px;
+  width: 149px;
+  padding-left: 87px;
+  margin-bottom: 12px;
+  padding-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .popup-title {
+    width: 400px;
+
+    font-size: 30px;
+    line-height: 57px;
+
+    padding-left: 83px;
+  }
 }

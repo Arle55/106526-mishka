@@ -80,7 +80,7 @@
         <li class="catalog-main__item">
 
           <a class="catalog-main__item-link" href="#">
-            <img class="catalog-main__catalog-image" src="img/photo-hare-mobile@1x.jpg" width="260" height="195" alt="Фото товара «Зайчик-попрыгайчик»">
+            <img class="catalog-main__catalog-image" src="img/photo-hare-mobile@1x.jpg" width="259" height="195" alt="Фото товара «Зайчик-попрыгайчик»">
           </a>
 
           <div class="catalog-main__item-wrapper">
@@ -92,13 +92,14 @@
 
           <div class="catalog-main__cost">
             <p class="item-cost">1 200 руб.</p>
-            <button class="catalog-main__button" aria-label="Добавить в корзину" type="button">Добавить в корзину</button>
+            <button class="catalog-main__button" aria-label="Добавить в корзину" type="button">
+              <span class="visually-hidden">Добавить в корзину</span></button>
           </div>
         </li>
         <li class="catalog-main__item">
 
           <a class="catalog-main__item-link" href="#">
-            <img class="catalog-main__catalog-image" src="img/photo-bowl-mobile@1x.jpg" width="260" height="195" alt="Фото товара «Корзинка для белья»">
+            <img class="catalog-main__catalog-image" src="img/photo-bowl-mobile@1x.jpg" width="259" height="195" alt="Фото товара «Корзинка для белья»">
           </a>
 
           <div class="catalog-main__item-wrapper">
@@ -110,13 +111,14 @@
 
           <div class="catalog-main__cost">
             <p class="item-cost">690 руб.</p>
-            <button class="catalog-main__button" aria-label="Добавить в корзину" type="button">Добавить в корзину</button>
+            <button class="catalog-main__button" aria-label="Добавить в корзину" type="button">
+              <span class="visually-hidden">Добавить в корзину</span></button>
           </div>
         </li>
         <li class="catalog-main__item">
 
           <a class="catalog-main__item-link" href="#">
-            <img class="catalog-main__catalog-image" src="img/photo-toys-mobile@1x.jpg" width="260" height="195" alt="Фото товара «Корзинка для белья»">
+            <img class="catalog-main__catalog-image" src="img/photo-toys-mobile@1x.jpg" width="259" height="195" alt="Фото товара «Корзинка для белья»">
           </a>
 
           <div class="catalog-main__item-wrapper">
@@ -128,26 +130,30 @@
 
           <div class="catalog-main__cost">
             <p class="item-cost">1 500 руб.</p>
-            <button class="catalog-main__button" aria-label="Добавить в корзину" type="button">Добавить в корзину</button>
+            <button class="catalog-main__button" aria-label="Добавить в корзину" type="button">
+              <span class="visually-hidden">Добавить в корзину</span></button>
           </div>
         </li>
       </ul>
     </div>
 
     <section class="production-process">
-        <h2 class="production-title">Процесс производства</h2>
-      <video class="production-process__video" scr="#" width="260" height="150" preload="metadata" poster="img/video-mobile@1x.jpg"></video>
-      <div class="production-process__wrapper">
-      <p class="production-text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как
-        появляются наши товары.</p>
-      <div class="production-process__button-order">
-        <a class="production-process__order-link" href="#">Сделать заказ</a>
+      <h2 class="production-title">Процесс производства</h2>
+      <div class="production-process__video-container">
+        <video class="production-process__video" scr="#" width="260" height="150" preload="metadata" poster="img/video-mobile@1x.jpg"></video>
       </div>
+
+      <div class="production-process__wrapper">
+        <p class="production-text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как
+          появляются наши товары.</p>
+        <div class="production-process__button-order">
+          <a class="production-process__order-link" href="#">Сделать заказ</a>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="page-footer">
+  <footer class="page-footer page-footer__catalog">
     <div class="page-footer__social social">
       <ul class="social-list">
         <li class="social-list__item">
@@ -161,12 +167,12 @@
         </li>
       </ul>
     </div>
-    <div class="page-footer__copyright copyright">
+    <div class="page-footer__copyright page-footer__copyright-catalog copyright">
       <b class="copyright__text">Разработано:</b>
       <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive" aria-label="логотип HTML Academy"></a>
     </div>
 
-    <div class="page-footer__logo">
+    <div class="page-footer__logo page-footer__logo-catalog">
       <a class="page-footer__logo-link">
         <img class="page-footer__logo-image" src="img/logo-footer.svg" width="102" height="34" alt="Магазин товаров ручной работы «Мишка»">
       </a>

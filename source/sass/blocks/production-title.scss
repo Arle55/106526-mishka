@@ -1,22 +1,26 @@
 .production-title {
-  padding-left: 91px;
+  padding-left: 88px;
   font-size: 17px;
   line-height: 24px;
+  padding-top: 8px;
+  margin-bottom: 23px;
   text-align: left;
 }
 
 @media (min-width: 768px) {
   .production-title {
-    padding-left: 91px;
+    padding-left: 107px;
     font-size: 20px;
     margin-top: 0;
-    padding-top: 43px;
+    padding-top: 34px;
   }
 }
 
 
 @media (min-width: 1250px) {
   .production-title {
-    padding-left: 62px;
+    width: 200px;
+    padding-left: 77px;
+    margin-top: 63px;
   }
 }

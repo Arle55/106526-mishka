@@ -13,7 +13,7 @@
 .name-list__name-input {
   width: 260px;
   height: 52px;
-  margin-bottom: 24px;
+  margin-bottom: 18px;
   outline: none;
   border-top: 0;
   border-left: 0;
@@ -29,19 +29,25 @@
 @media (min-width: 768px) {
   .name-list {
     margin-top: -18px;
-    margin-left: 127px;
+    margin-left: 125px;
     padding-top: 0;
     margin-bottom: 0;
     padding-bottom: 0;
   }
 
   .name-list label {
-    margin-right: 25px;
+    margin-right: 18px;
     font-size: 19px;
   }
 
   .name-list__name-input {
-    width: 421px;
+    width: 428px;
+    margin-bottom: 20px;
+  }
+
+  .name-list__name-input::-webkit-input-placeholder {
+    font-size: 19px;
+    padding-left: 16px;
   }
 
   .name-list__input-second {
@@ -55,7 +61,7 @@
 
 @media (min-width: 1250px) {
   .name-list {
-    margin-left: 86px;
+    margin-left: 75px;
   }
 
   .name-list__name-input {

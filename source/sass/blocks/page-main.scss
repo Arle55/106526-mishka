@@ -112,23 +112,30 @@
   .page-main__contacts {
     width: 400px;
     margin-right: 50px;
+    background-position: 62px 145px;
   }
 
   .page-main__contacts-list {
+    width: 525px;
     display: flex;
     flex-direction: column;
     margin-left: auto;
   }
 
+  .page-main__contacts-item {
+    margin-right: 23px;
+  }
+
   .page-main__map {
     flex-basis: 525px;
-    margin-top: 71px;
+    margin-top: 140px;
+    margin-left: 73px;
   }
 
   .page-main__write-link {
-    margin-top: -118px;
-    margin-bottom: 0;
-    margin-left: 152px;
+    margin-top: -108px;
+    margin-bottom: 48px;
+    margin-left: 159px;
     margin-right: 0;
   }
 }
