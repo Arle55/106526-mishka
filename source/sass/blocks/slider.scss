@@ -29,7 +29,7 @@
   width: 130px;
   height: 52px;
   background-color: #ffffff;
-  background-image: url("/img/icon-left-arrow.svg");
+  background-image: url("../img/icon-left-arrow.svg");
   background-repeat: no-repeat;
   background-position: center;
   border: solid 1px #ececec;
@@ -37,7 +37,7 @@
 
   &:last-child {
     margin-left: -1px;
-    background-image: url("/img/icon-right-arrow.svg");
+    background-image: url("../img/icon-right-arrow.svg");
     background-repeat: no-repeat;
     background-position: center;
   }
