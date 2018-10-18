@@ -35,19 +35,6 @@
     order: -1;
   }
 
-  .page-footer__logo-link {
-    display: block;
-    margin-bottom: 25px;
-
-    &:hover {
-      opacity: 0.6;
-    }
-
-    &:active {
-      opacity: 0.3;
-    }
-  }
-
   .page-footer__copyright {
     width: 302px;
     margin-top: -13px;
