@@ -1,20 +1,28 @@
 .logo {
+  width: 320px;
+  margin: 0 auto;
   padding-top: 22px;
-  padding-bottom: 22px;
+  padding-bottom: 19px;
+  box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
 }
 
 @media (min-width: 772px) {
   .logo {
-    flex-basis: 204px;
-    padding-left: 51px;
+    flex-basis: 242px;
+    padding-left: 69px;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
     box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
   }
 }
 
 @media (min-width: 1250px) {
   .logo {
-    flex-basis: 118px;
-    padding-left: 71px;
+    flex-basis: 188px;
+    padding-left: 101px;
     padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 }

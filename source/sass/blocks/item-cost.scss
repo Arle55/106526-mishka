@@ -1,21 +1,29 @@
 .item-cost {
-  padding-top: 25px;
+  padding-top: 21px;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 15px;
   line-height: 24px;
   font-weight: bold;
   color: black;
+  border-top: 1px solid #ececec;
 }
 
 
 @media (min-width: 768px) {
   .item-cost {
     font-size: 17px;
-    padding-left: 29px;
+    padding-left: 0;
+    margin-left: 33px;
+    margin-right: 33px;
   }
 }
 
 @media (min-width: 1250px) {
   .item-cost {
-    padding-top: 0;
+    margin-top: -8px;
+    padding-top: 22px;
+    margin-left: 28px;
   }
 }

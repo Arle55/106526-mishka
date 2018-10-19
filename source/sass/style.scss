@@ -3,6 +3,7 @@
 @import "includes/mixin.scss";
 @import "blocks/visually-hidden.scss";
 @import "blocks/page-header.scss";
+@import "blocks/main-nav.scss";
 @import "blocks/logo.scss";
 @import "blocks/toggle-menu.scss";
 @import "blocks/site-list.scss";
@@ -21,9 +22,11 @@
 @import "blocks/page-footer.scss";
 @import "blocks/social.scss";
 @import "blocks/copyright.scss";
+@import "blocks/footer-logo.scss";
 @import "blocks/catalog-main.scss";
 @import "blocks/catalog-popups.scss";
 @import "blocks/popup-title.scss";
+@import "blocks/popup-text.scss";
 @import "blocks/product-size.scss";
 @import "blocks/item-cost.scss";
 @import "blocks/production-process.scss";

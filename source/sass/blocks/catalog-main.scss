@@ -7,7 +7,7 @@
 
 .catalog-main__title {
   background-color: #f1f1f1;
-  padding-top: 76px;
+  padding-top: 72px;
   padding-bottom: 74px;
   padding-left: 42px;
   margin: 0;
@@ -21,7 +21,12 @@
 }
 
 .catalog-main__item {
-  margin: 30px 31px 30px 31px;
+  margin-top: 31px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+
+  border: solid 1px #ececec;
 
   &:hover {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
@@ -33,19 +38,33 @@
 }
 
 .catalog-main__item-wrapper {
-  padding-left: 34px;
+  padding-left: 27px;
   padding-right: 34px;
-  margin-top: -3px;
-  margin-bottom: 0;
-  border: solid 1px #ececec;
+  margin-top: -8px;
+  margin-bottom: -8px;
 }
 
 .catalog-main__cost {
-  padding-left: 35px;
-  padding-right: 35px;
-  border: solid 1px #ececec;
-  border-top: none;
-  margin-top: -18px;
+  position: relative;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-bottom: 27px;
+}
+
+.catalog-main__button {
+  position: absolute;
+  top: 22px;
+  right: 26px;
+
+  display: block;
+  width: 20px;
+  height: 19px;
+
+  background-image: url("../img/icon-cart.svg");
+  opacity: 0.2;
+  background-color: white;
+  cursor: pointer;
+  border: none;
 }
 
 .catalog-main__item-link {
@@ -68,7 +87,7 @@
 .catalog-main__product-info {
   font-size: 13px;
   line-height: 30px;
-  margin-top: 0;
+  margin-top: 5px;
   margin-bottom: 27px;
   padding-top: 0;
   padding-bottom: 0;
@@ -89,20 +108,29 @@
     font-size: 43px;
     line-height: 50px;
     padding-left: 0;
+    padding-bottom: 80px;
+    margin-bottom: 48px;
+    padding-top: 97px;
+
+    background-image: url("../img/bg-zigzag-fill.svg");
+    background-repeat: no-repeat;
+    background-position: 0 216px;
+    background-size: 770px 24px;
   }
 
   .catalog-main__product-name {
     margin-top: 0;
     margin-left: 0;
-    padding-top: 28px;
+    padding-top: 25px;
     padding-left: 29px;
+    padding-right: 71px;
     font-size: 20px;
   }
 
   .catalog-main__product-info {
     margin-top: 0;
-    margin-left: 0;
-    padding-top: 15px;
+    margin-left: -2px;
+    padding-top: 5px;
     padding-left: 29px;
     font-size: 15px;
   }
@@ -115,9 +143,10 @@
 
   .catalog-main__item {
     width: 669px;
-    height: 334px;
+    height: 333px;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 21px;
     margin-left: 50px;
     margin-right: 50px;
   }
@@ -137,17 +166,32 @@
 
   .catalog-main__cost {
     width: 333px;
-    margin-top: -103px;
+    margin-top: -74px;
     margin-bottom: 0;
     margin-left: auto;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .catalog-main__button {
+    right: 31px;
   }
 }
 
 @media (min-width: 1250px) {
   .catalog-main {
     width: 1150px;
+  }
+
+  .catalog-main__title {
+    font-size: 53px;
+    line-height: 57px;
+    padding-bottom: 100px;
+
+    margin-bottom: 19px;
+
+    background-position: 0 240px;
+    background-size: 1150px 34px;
   }
 
   .catalog-main__wrapper {
@@ -164,14 +208,22 @@
   }
 
   .catalog-main__item {
-    width: 316px;
-    height: 660px;
+    width: 313px;
+    height: 658px;
     flex-direction: column;
     flex-wrap: nowrap;
     margin-top: 111px;
     margin-left: 0;
     margin-right: 0;
     padding: 0;
+  }
+
+  .catalog-main__product-name {
+    padding-right: 45px;
+  }
+
+  .catalog-main__button {
+    top: 15px;
   }
 
   .catalog-main__item:nth-child(2) {

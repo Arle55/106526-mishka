@@ -1,9 +1,9 @@
 .product-size__list label {
   display: inline-block;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 16px;
 
-  width: 82px;
+  width: 79px;
 
   background-color: #ffffff;
   font-size: 17px;
@@ -32,4 +32,16 @@
   height: 52px;
   background-color: #63d1bb;
   margin-top: 31px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  .product-size__list label {
+    width: 110px;
+  }
+
+  input[type="submit"] {
+    width: 349px;
+  }
 }

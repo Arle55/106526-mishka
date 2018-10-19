@@ -2,9 +2,10 @@
   font-size: 13px;
   line-height: 24px;
   text-align: left;
-  margin-top: 34px;
+  margin-top: 25px;
   padding-left: 34px;
-  margin-bottom: 49px;
+  padding-right: 40px;
+  margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -17,15 +18,14 @@
     padding-right: 47px;
     padding-left: 40px;
     margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 11px;
+    margin-bottom: 34px;
   }
 }
 
 @media (min-width: 1250px) {
   .production-text {
     flex-basis: 159px;
-    width: 223px;
-    padding-left: 0;
+    padding-left: 11px;
   }
 }

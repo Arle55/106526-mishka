@@ -2,12 +2,24 @@
   line-height: 18px;
   color: black;
   padding-bottom: 0;
+  margin-left: 69px;
+  margin-right: 24px;
   margin-bottom: 0;
   font-size: 19px;
   text-align: left;
 }
 
-.copyright__link {
+.button {
   text-decoration: none;
   outline: none;
+}
+
+.copyright__link {
+  background-image: url("../img/logo-htmlacademy.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 27px;
+  height: 34px;
+  transform: translateY(50%);
+  bottom: 50%;
 }

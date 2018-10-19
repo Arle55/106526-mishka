@@ -1,5 +1,6 @@
 .page-footer {
   width: 320px;
+  min-height: 160px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -8,29 +9,62 @@
 
 .page-footer__copyright {
   margin-top: 28px;
-  text-align: center;
+  position: relative;
+}
+
+.page-footer__logo {
+  display: none;
 }
 
 @media (min-width: 768px) {
   .page-footer {
     width: 768px;
-    min-height: 143px;
+    height: 143px;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
 
-  .footer-logo {
+  .page-footer__social {
+    width: 122px;
+  }
+
+  .page-footer__logo {
+    display: block;
+    margin-left: 50px;
     order: -1;
   }
 
   .page-footer__copyright {
-    margin-top: 0;
+    width: 302px;
+    margin-top: -13px;
   }
 }
 
 @media (min-width: 1250px) {
   .page-footer {
     width: 1250px;
+    height: 143px;
+  }
+
+  .page-footer__logo {
+    margin-left: 101px;
+  }
+
+  .page-footer__copyright {
+    margin-right: 51px;
+  }
+
+  .page-footer__catalog {
+    width: 1150px;
+    height: 143px;
+  }
+
+  .page-footer__copyright-catalog {
+    margin-right: 0;
+  }
+
+  .page-footer__logo-catalog {
+    margin-left: 51px;
   }
 }

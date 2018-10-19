@@ -2,14 +2,15 @@
   display: flex;
   flex-direction: column;
   width: 320px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
 .about-us__title {
   @include index-title;
-  margin-top: 76px;
+  margin-top: 69px;
   margin-bottom: 0;
   padding-left: 30px;
 }
@@ -23,12 +24,53 @@
 }
 
 .about-us__first-item {
+  position: relative;
   font-size: 17px;
   line-height: 20px;
   text-align: left;
   color: black;
-  padding-top: 85px;
-  padding-right: 110px;
+}
+
+.about-us__list-first li:nth-child(1) {
+  padding-right: 93px;
+  padding-top: 86px;
+}
+
+.about-us__flower-icon {
+  position: absolute;
+  left: 10px;
+  top: 32px;
+
+  width: 32px;
+  height: 37px;
+}
+
+.about-us__list-first li:nth-child(2) {
+  padding-right: 80px;
+  padding-top: 83px;
+}
+
+.about-us__money-icon {
+  position: absolute;
+  left: 1px;
+  top: 30px;
+
+  width: 47px;
+  height: 27px;
+}
+
+.about-us__list-first li:nth-child(3) {
+  padding-right: 91px;
+  padding-top: 83px;
+}
+
+.about-us__heart-icon {
+  position: absolute;
+  left: 9px;
+  top: 35px;
+
+  width: 34px;
+  height: 27px;
 }
 
 .about-us__list-second {
@@ -40,37 +82,66 @@
 }
 
 .about-us__second-item {
+  position: relative;
   font-size: 17px;
   line-height: 20px;
   text-align: left;
   color: black;
-  padding-top: 85px;
+  padding-top: 83px;
 }
 
 .about-us__list-second li:nth-child(1) {
   padding-right: 79px;
 }
 
+.about-us__ball-icon {
+  position: absolute;
+  left: 4px;
+  top: 32px;
+
+  width: 35px;
+  height: 34px;
+}
+
 .about-us__list-second li:nth-child(2) {
   padding-right: 38px;
 }
 
+.about-us__rocket-icon {
+  position: absolute;
+  left: -5px;
+  top: 33px;
+
+  width: 55px;
+  height: 23px;
+}
+
 .about-us__list-second li:nth-child(3) {
   padding-right: 91px;
-  margin-bottom: 61px;
+  margin-bottom: 56px;
+}
+
+.about-us__gift-icon {
+  position: absolute;
+  left: 4px;
+  top: 31px;
+
+  width: 33px;
+  height: 32px;
 }
 
 @media (min-width: 768px) {
   .about-us {
-    width: 668px;
+    width: 768px;
+    margin-top: 58px;
   }
 
   .about-us__title {
     font-size: 43px;
     line-height: 50px;
     margin-top: 60px;
-    margin-bottom: 104px;
-    padding-left: 0;
+    margin-bottom: 0;
+    padding-left: 45px;
   }
 
   .about-us__list-wrapper {
@@ -80,10 +151,10 @@
   }
 
   .about-us__list-first {
-    width: 235px;
+    width: 334px;
     display: flex;
     flex-direction: column;
-    padding-left: 0;
+    padding-left: 50px;
   }
 
   .about-us__first-item {
@@ -91,14 +162,68 @@
     font-size: 20px;
     line-height: 22px;
     padding-top: 0;
-    padding-bottom: 112px;
+    padding-bottom: 0;
+  }
+
+  .about-us__list-first li:nth-child(1) {
+    padding-top: 103px;
+    margin-right: 20px;
+  }
+
+  .about-us__flower-icon {
+    top: 50px;
+  }
+
+  .about-us__list-first li:nth-child(2) {
+    padding-top: 111px;
+  }
+
+  .about-us__money-icon {
+    top: 58px;
+  }
+
+  .about-us__list-first li:nth-child(3) {
+    padding-top: 111px;
+    margin-right: 22px;
+  }
+
+  .about-us__heart-icon {
+    top: 63px;
   }
 
   .about-us__list-second {
-    width: 295px;
+    width: 326px;
     display: flex;
     flex-direction: column;
-    padding-left: 99px;
+    padding-left: 0;
+    margin-right: 0;
+  }
+
+  .about-us__list-second li:nth-child(1) {
+    padding-top: 102px;
+    padding-right: 50px;
+  }
+
+  .about-us__ball-icon {
+    top: 52px;
+  }
+
+  .about-us__list-second li:nth-child(2) {
+    padding-top: 111px;
+    padding-right: 0;
+  }
+
+  .about-us__rocket-icon {
+    top: 62px;
+  }
+
+  .about-us__list-second li:nth-child(3) {
+    padding-top: 112px;
+    padding-right: 31px;
+  }
+
+  .about-us__gift-icon {
+    top: 60px;
   }
 
   .about-us__second-item {
@@ -106,24 +231,6 @@
     font-size: 20px;
     line-height: 22px;
     padding-top: 0;
-    padding-bottom: 112px;
-  }
-
-  .about-us__list-second li:nth-child(1) {
-    padding-right: 50px;
-  }
-
-  .about-us__list-second li:nth-child(2) {
-    padding-right: 0;
-  }
-
-  .about-us__list-second li:nth-child(3) {
-    padding-right: 0;
-    padding-bottom: 84px;
-  }
-
-  .about-us__list-first li:last-child {
-    padding-bottom: 84px;
   }
 }
 
@@ -135,5 +242,16 @@
   .about-us__title {
     font-size: 53px;
     line-height: 57px;
+    margin-top: 79px;
+    margin-left: 0;
+    padding-left: 28px;
+  }
+
+  .about-us__list-first {
+    padding-left: 34px;
+  }
+
+  .about-us__list-second {
+    padding-left: 16px;
   }
 }

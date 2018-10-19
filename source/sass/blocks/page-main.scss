@@ -7,7 +7,7 @@
 }
 
 .page-main__contacts-list {
-  margin-bottom: 42px;
+  margin-bottom: 37px;
 }
 
 .page-main__contacts-item {
@@ -65,11 +65,15 @@
 @media (min-width: 772px) {
   .page-main__contacts {
     width: 772px;
-    margin: 0 auto;
+    margin-top: 56px;
+    background-image: url("../img/icon-flag.svg");
+    background-repeat: no-repeat;
+    background-size: 47px 81px;
+    background-position: 671px 75px;
   }
 
   .page-main__contacts-list {
-    margin-bottom: 61px;
+    margin-bottom: 57px;
     display: flex;
   }
 
@@ -91,7 +95,7 @@
   }
 
   .page-main__map {
-    flex-basis: 600px;
+    width: 600px;
     margin: 0 auto;
     background-color: palevioletred;
   }
@@ -108,23 +112,30 @@
   .page-main__contacts {
     width: 400px;
     margin-right: 50px;
+    background-position: 62px 145px;
   }
 
   .page-main__contacts-list {
+    width: 525px;
     display: flex;
     flex-direction: column;
     margin-left: auto;
   }
 
+  .page-main__contacts-item {
+    margin-right: 23px;
+  }
+
   .page-main__map {
     flex-basis: 525px;
-    margin-top: 71px;
+    margin-top: 140px;
+    margin-left: 73px;
   }
 
   .page-main__write-link {
-    margin-top: -118px;
-    margin-bottom: 0;
-    margin-left: 152px;
+    margin-top: -108px;
+    margin-bottom: 48px;
+    margin-left: 159px;
     margin-right: 0;
   }
 }
