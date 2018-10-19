@@ -1,25 +1,47 @@
-.copyright__text {
-  line-height: 18px;
-  color: black;
-  padding-bottom: 0;
-  margin-left: 69px;
-  margin-right: 24px;
-  margin-bottom: 0;
-  font-size: 19px;
-  text-align: left;
-}
-
 .button {
   text-decoration: none;
   outline: none;
 }
 
 .copyright__link {
-  background-image: url("../img/logo-htmlacademy.svg");
-  background-repeat: no-repeat;
+  display: block;
+
+  position: relative;
+
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  line-height: 18px;
+
+  margin-top: 31px;
+  margin-left: 68px;
+
+  fill: #63d1bb;
+
+  &:hover {
+    fill: #46c1ae;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.copyright__text {
+  padding-bottom: 17px;
+}
+
+.copyright__link svg {
   position: absolute;
-  width: 27px;
+  width: 182px;
   height: 34px;
   transform: translateY(50%);
-  bottom: 50%;
+  bottom: 41%;
+  left: 79px;
+}
+
+@media (min-width: 768px) {
+  .copyright__link {
+    margin-top: 0;
+  }
 }

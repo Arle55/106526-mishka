@@ -36,14 +36,27 @@
     z-index: 1;
   }
 
-
   .main-nav__logo {
     margin-left: 0;
+  }
+
+  .main-nav__logo img {
+    width: 112px;
+    height: 46px;
   }
 }
 
 @media (min-width: 1250px) {
   .main-nav {
     width: 1150px;
+  }
+
+  .main-nav__logo img {
+    width: 149px;
+    height: 72px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
