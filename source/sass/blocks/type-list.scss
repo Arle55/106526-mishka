@@ -34,6 +34,15 @@
   height: 35px;
 }
 
+.type-list__type-input + label:hover::before {
+  border: solid 2px #62d1ba;
+}
+
+.type-list__type-input:checked + label::before {
+  border: solid 2px #444444;
+  opacity: 0.3;
+}
+
 .type-list__type-input:checked + label::after {
   content: "";
 
