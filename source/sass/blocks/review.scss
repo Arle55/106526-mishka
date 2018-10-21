@@ -6,6 +6,10 @@
   padding-right: 30px;
 }
 
+.review__text br {
+  display: none;
+}
+
 .review__author-name {
   font-size: 17px;
   font-weight: bold;
@@ -60,6 +64,10 @@
   .review__text {
     padding-left: 124px;
     padding-right: 256px;
+  }
+
+  .review__text br {
+    display: block;
   }
 
   .review__author-name {

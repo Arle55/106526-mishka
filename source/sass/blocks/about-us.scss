@@ -36,13 +36,18 @@
   padding-top: 86px;
 }
 
-.about-us__flower-icon {
+.about-us__first-item--flower-icon::before {
+  content: "";
+
   position: absolute;
-  left: 10px;
-  top: 32px;
+  left: 8px;
+  top: 46px;
 
   width: 32px;
   height: 37px;
+
+  background-image: url("../img/icon-feature-flower.svg");
+  background-repeat: no-repeat;
 }
 
 .about-us__list-first li:nth-child(2) {
@@ -50,13 +55,18 @@
   padding-top: 83px;
 }
 
-.about-us__money-icon {
+.about-us__first-item--money-icon::before {
+  content: "";
+
   position: absolute;
   left: 1px;
   top: 30px;
 
   width: 47px;
   height: 27px;
+
+  background-image: url("../img/icon-feature-money.svg");
+  background-repeat: no-repeat;
 }
 
 .about-us__list-first li:nth-child(3) {
@@ -64,13 +74,18 @@
   padding-top: 83px;
 }
 
-.about-us__heart-icon {
+.about-us__first-item--heart-icon::before {
+  content: "";
+
   position: absolute;
   left: 9px;
   top: 35px;
 
   width: 34px;
   height: 27px;
+
+  background-image: url("../img/icon-feature-heart.svg");
+  background-repeat: no-repeat;
 }
 
 .about-us__list-second {
@@ -94,26 +109,36 @@
   padding-right: 79px;
 }
 
-.about-us__ball-icon {
+.about-us__second-item--ball-icon::before {
+  content: "";
+
   position: absolute;
   left: 4px;
   top: 32px;
 
   width: 35px;
   height: 34px;
+
+  background-image: url("../img/icon-feature-ball.svg");
+  background-repeat: no-repeat;
 }
 
 .about-us__list-second li:nth-child(2) {
   padding-right: 38px;
 }
 
-.about-us__rocket-icon {
+.about-us__second-item--rocket-icon::before {
+  content: "";
+
   position: absolute;
   left: -5px;
   top: 33px;
 
   width: 55px;
   height: 23px;
+
+  background-image: url("../img/icon-feature-rocket.svg");
+  background-repeat: no-repeat;
 }
 
 .about-us__list-second li:nth-child(3) {
@@ -121,13 +146,18 @@
   margin-bottom: 56px;
 }
 
-.about-us__gift-icon {
+.about-us__second-item--gift-icon::before {
+  content: "";
+
   position: absolute;
   left: 4px;
   top: 31px;
 
   width: 33px;
   height: 32px;
+
+  background-image: url("../img/icon-feature-gift.svg");
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 768px) {
@@ -170,7 +200,7 @@
     margin-right: 20px;
   }
 
-  .about-us__flower-icon {
+  .about-us__first-item--flowet-icon::before {
     top: 50px;
   }
 
@@ -178,7 +208,7 @@
     padding-top: 111px;
   }
 
-  .about-us__money-icon {
+  .about-us__first-item--money-icon::before {
     top: 58px;
   }
 
@@ -187,7 +217,7 @@
     margin-right: 22px;
   }
 
-  .about-us__heart-icon {
+  .about-us__first-item--heart-icon::before {
     top: 63px;
   }
 
@@ -204,7 +234,7 @@
     padding-right: 50px;
   }
 
-  .about-us__ball-icon {
+  .about-us__second-item--ball-icon::before {
     top: 52px;
   }
 
@@ -213,7 +243,7 @@
     padding-right: 0;
   }
 
-  .about-us__rocket-icon {
+  .about-us__second-item--rocket-icon::before {
     top: 62px;
   }
 
@@ -222,7 +252,7 @@
     padding-right: 31px;
   }
 
-  .about-us__gift-icon {
+  .about-us__second-item--gift-icon::before {
     top: 60px;
   }
 
@@ -242,7 +272,7 @@
   .about-us__title {
     font-size: 53px;
     line-height: 57px;
-    margin-top: 79px;
+    margin-top: 98px;
     margin-left: 0;
     padding-left: 28px;
   }

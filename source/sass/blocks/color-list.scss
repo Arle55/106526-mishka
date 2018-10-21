@@ -32,6 +32,15 @@
   height: 35px;
 }
 
+.color-list__color-input + label:hover::before {
+  border: solid 2px #62d1ba;
+}
+
+.color-list__color-input:checked + label::before {
+  border: solid 2px #444444;
+  opacity: 0.3;
+}
+
 .color-list__color-input:checked + label::after {
   content: "";
   position: absolute;
