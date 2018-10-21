@@ -109,7 +109,7 @@
   padding-right: 79px;
 }
 
-.about-us__first-item--ball-icon::before {
+.about-us__second-item--ball-icon::before {
   content: "";
 
   position: absolute;
@@ -127,7 +127,7 @@
   padding-right: 38px;
 }
 
-.about-us__first-item--rocket-icon::before {
+.about-us__second-item--rocket-icon::before {
   content: "";
 
   position: absolute;
@@ -146,7 +146,7 @@
   margin-bottom: 56px;
 }
 
-.about-us__first-item--gift-icon::before {
+.about-us__second-item--gift-icon::before {
   content: "";
 
   position: absolute;
@@ -234,7 +234,7 @@
     padding-right: 50px;
   }
 
-  .about-us__first-item--ball-icon::before {
+  .about-us__second-item--ball-icon::before {
     top: 52px;
   }
 
@@ -243,7 +243,7 @@
     padding-right: 0;
   }
 
-  .about-us__first-item--rocket-icon::before {
+  .about-us__second-item--rocket-icon::before {
     top: 62px;
   }
 
@@ -252,7 +252,7 @@
     padding-right: 31px;
   }
 
-  .about-us__first-item--gift-icon::before {
+  .about-us__second-item--gift-icon::before {
     top: 60px;
   }
 
