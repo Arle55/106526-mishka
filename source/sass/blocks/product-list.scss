@@ -51,18 +51,13 @@
 }
 
 
-.product-list__link-first::before {
-  content: "";
-
+.product-list__icon-interior {
   position: absolute;
   top: 24px;
   left: 246px;
 
   width: 40px;
   height: 62px;
-
-  background-image: url("../img/icon-interior.svg");
-  background-repeat: no-repeat;
 
   opacity: 0.2;
 }

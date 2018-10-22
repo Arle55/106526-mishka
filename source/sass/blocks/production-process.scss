@@ -7,6 +7,14 @@
   background-image: url("../img/icon-video.svg");
   background-repeat: no-repeat;
   background-position: 33px 28px;
+
+  &:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  &:active {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
 }
 
 .production-process__button-order {

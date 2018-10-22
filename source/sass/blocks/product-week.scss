@@ -94,11 +94,36 @@
   margin-bottom: 26px;
 }
 
-.product-week__button {
-  @include button;
-  font-size: 17px;
-  line-height: 20px;
+.product-week__link {
+  display: block;
+
+  width: 260px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+  margin-top: 36px;
+  margin-bottom: 37px;
   margin-left: 31px;
+
+  background-color: #ffffff;
+  border: solid 2px #444444;
+
+  color: #444444;
+
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &:hover {
+    color: #ffffff;
+    background-color: #444444;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #444444;
+  }
 }
 
 @media (min-width: 772px) {
@@ -185,7 +210,7 @@
     margin-bottom: 34px;
   }
 
-  .product-week__button {
+  .product-week__link {
     width: 292px;
     margin: 0 auto;
   }
