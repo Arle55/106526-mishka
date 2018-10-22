@@ -1,15 +1,18 @@
 .catalog-popups {
   position: absolute;
-  display: none;
 
   background-color: white;
   box-shadow: 0 5px 10px rgba(0, 1, 1, 0.25);
-  border: 1px solid #c6c6c6;
+  border: 1px solid #fdebeb;
   text-align: center;
 }
 
 .modal-show {
   display: block;
+}
+
+.modal-hidden {
+  display: none;
 }
 
 .modal {

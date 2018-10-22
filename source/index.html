@@ -337,7 +337,7 @@
     </div>
   </footer>
 
-  <section class="catalog-popups modal">
+  <section class="catalog-popups modal modal-hidden">
       <h2 class="popup-title">Добавить в корзину</h2>
       <form class="product-size" action="https://echo.htmlacademy.ru" method="POST">
         <div class="product-size__list">
@@ -356,13 +356,25 @@
 
       </form>
   </section>
+  <div class="overlay"></div>
   <script>
     var link = document.querySelector('.product-week__link');
     var popup = document.querySelector('.modal');
+    var overlay = document.querySelector('.container');
 
     link.addEventListener('click', function (event) {
       event.preventDefault();
-      popup.classList.add('.modal-show');
+      popup.classList.remove('modal-hidden');
+      popup.classList.add('modal-show');
+    });
+
+    window.addEventListener("keydown", function (event) {
+      if (event.keyCode === 27) {
+        event.preventDefault();
+        if (popup.classList.contains("modal-show")) {
+          popup.classList.add("modal-hidden");
+        }
+      }
     });
   </script>
 
