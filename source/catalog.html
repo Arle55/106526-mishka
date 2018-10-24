@@ -336,13 +336,12 @@
   </section>
 
   <script>
-      var list = document.querySelectorAll('.catalog-main__item');
-      var link = document.querySelector('.catalog-main__link');
+      var link = document.querySelectorAll('.catalog-main__link');
       var popup = document.querySelector('.catalog-popups__modal');
       var overlay = document.querySelector('.overlay');
 
-      for(var i = 0; i < list.length; i ++) {
-        list[i].querySelector('a').addEventListener('click', function (event) {
+      for(var i = 0; i < link.length; i++) {
+        link[i].addEventListener('click', function (event) {
           event.preventDefault();
           popup.classList.add('catalog-popups__modal--visible');
           overlay.classList.add('overlay__modal');
