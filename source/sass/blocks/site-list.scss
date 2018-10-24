@@ -57,12 +57,14 @@
     color: rgba(0, 0, 0, 0.3);
   }
 
-  &:hover .site-list__icon-search {
+  &:hover .site-list__icon-search,
+  &:hover .site-list__icon-cart {
     fill: #63d1bb;
     opacity: 1;
   }
 
-  &:active .site-list__icon-search {
+  &:active .site-list__icon-search,
+  &:active .site-list__icon-cart {
     fill: #63d1bb;
     opacity: 0.3;
   }
@@ -149,7 +151,7 @@
     margin-left: 83px;
   }
 
-  .site-list__item-cart::before {
+  .site-list__icon-cart {
     top: 3px;
     left: 32px;
   }
