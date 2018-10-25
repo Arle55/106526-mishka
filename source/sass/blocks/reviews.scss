@@ -44,25 +44,29 @@
     flex-wrap: wrap;
     background-image: url("../img/review@1x.jpg");
     background-repeat: no-repeat;
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background-image: url("../img/review@2x.jpg");
+    }
   }
 
   .reviews__title {
     width: 200px;
     font-size: 43px;
     line-height: 50px;
-    padding-left: 47px;
+    padding-left: 45px;
     padding-top: 78px;
     order: -1;
   }
 
   .reviews__button {
-    width: 175px;
+    width: 174px;
     height: 52px;
     font-size: 17px;
     order: -1;
     margin-left: auto;
     margin-top: 80px;
-    margin-right: 49px;
+    margin-right: 52px;
     padding-top: 0;
     padding-bottom: 0;
   }

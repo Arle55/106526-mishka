@@ -24,9 +24,6 @@
 @import "blocks/copyright.scss";
 @import "blocks/footer-logo.scss";
 @import "blocks/catalog-main.scss";
-@import "blocks/catalog-popups.scss";
-@import "blocks/popup-title.scss";
-@import "blocks/popup-text.scss";
 @import "blocks/product-size.scss";
 @import "blocks/item-cost.scss";
 @import "blocks/production-process.scss";
@@ -36,3 +33,8 @@
 @import "blocks/type-list.scss";
 @import "blocks/color-list.scss";
 @import "blocks/name-list.scss";
+@import "blocks/overlay.scss";
+@import "blocks/catalog-popups.scss";
+@import "blocks/popup-title.scss";
+@import "blocks/popup-text.scss";
+@import "blocks/index-popup.scss";

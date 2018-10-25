@@ -1,4 +1,4 @@
-.catalog-popups {
+.index-popups {
   position: absolute;
 
   background-color: white;
@@ -8,32 +8,32 @@
   display: none;
 }
 
-.catalog-popups__modal {
+.index-popups__modal {
   left: 50%;
-  top: 144%;
+  top: 185%;
   transform: translate(-50%, -50%);
   width: 320px;
   height: 336px;
 }
 
-.catalog-popups__modal--visible {
+.index-popups__modal--visible {
   display: block;
 }
 
 @media (min-width: 768px) {
-  .catalog-popups {
+  .index-popups {
     width: 566px;
     height: 336px;
   }
 
-  .catalog-popups__modal {
-    top: 189%;
+  .index-popups__modal {
+    top: 259%;
   }
 }
 
 
 @media (min-width: 1250px) {
-  .catalog-popups__modal {
-    top: 194%;
+  .index-popups__modal {
+    top: 271%;
   }
 }
