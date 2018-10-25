@@ -32,11 +32,13 @@
   height: 35px;
 }
 
-.color-list__color-input + label:hover::before {
+.color-list__color-input + label:hover::before,
+.color-list__color-input:checked + label:hover::before {
   border: solid 2px #62d1ba;
 }
 
-.color-list__color-input:checked + label::before {
+.color-list__color-input + label:active::before,
+.color-list__color-input:checked + label:active::before {
   border: solid 2px #444444;
   opacity: 0.3;
 }
