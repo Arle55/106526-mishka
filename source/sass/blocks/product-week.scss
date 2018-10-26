@@ -126,9 +126,9 @@
   }
 }
 
-@media (min-width: 772px) {
+@media (min-width: 768px) {
   .product-week {
-    width: 772px;
+    width: 768px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -227,7 +227,7 @@
   }
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1150px) {
   .product-week {
     width: 1050px;
     margin: 0 auto;
@@ -261,7 +261,7 @@
   }
 
   .product-week__first-column {
-    margin-top: 91px;
+    margin-top: 81px;
     flex-basis: 74%;
     margin-left: 0;
   }

@@ -79,9 +79,9 @@
   background-repeat: no-repeat;
 }
 
-@media (min-width: 772px) {
+@media (min-width: 768px) {
   .page-main__contacts {
-    width: 772px;
+    width: 768px;
     margin-top: 56px;
     background-image: url("../img/icon-flag.svg");
     background-repeat: no-repeat;
@@ -90,6 +90,7 @@
   }
 
   .page-main__contacts-list {
+    width: 768px;
     margin-bottom: 57px;
     display: flex;
   }
@@ -126,7 +127,7 @@
   }
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1150px) {
   .page-main__contacts-wrapper {
     width: 1050px;
     display: flex;
