@@ -191,6 +191,18 @@ input[type="submit"] {
   }
 }
 
+.form-main__contacts-item:hover + .form-main__contact-item--icon-phone,
+.form-main__contacts-item:hover + .form-main__contact-item--icon-email {
+  fill: #62d1ba;
+  opacity: 1;
+}
+
+.form-main__contacts-item:active + .form-main__contact-item--icon-phone,
+.form-main__contacts-item:active + .form-main__contact-item--icon-email {
+  fill: #62d1ba;
+  opacity: 1;
+}
+
 .form-main__contact-item--icon-phone {
   position: absolute;
   top: 36px;

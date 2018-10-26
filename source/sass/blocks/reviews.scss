@@ -30,13 +30,13 @@
   transform: rotate(180deg);
 
   left: 0;
-  top: 40px;
+  top: 45px;
 
   width: 319px;
-  height: 16px;
+  height: 6px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 772px) {
   .reviews {
     width: 768px;
     margin-top: 26px;
@@ -71,9 +71,15 @@
     padding-bottom: 0;
   }
 
-  .reviews__zigzag-icon {
+  .reviews__zigzag {
     width: 771px;
+  }
+
+  .reviews__zigzag-icon {
     top: 68px;
+
+    width: 771px;
+    height: 15px;
   }
 }
 
@@ -93,6 +99,10 @@
     line-height: 57px;
     padding-left: 170px;
     padding-top: 69px;
+  }
+
+  .reviews__zigzag {
+    width: 1052px;
   }
 
   .reviews__zigzag-icon {
