@@ -23,9 +23,9 @@
 }
 
 
-@media (min-width: 772px) {
+@media (min-width: 768px) {
   .main-nav {
-    width: 772px;
+    width: 768px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -46,7 +46,7 @@
   }
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1150px) {
   .main-nav {
     width: 1150px;
   }

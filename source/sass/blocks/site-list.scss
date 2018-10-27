@@ -93,7 +93,7 @@
   opacity: 0.2;
 }
 
-@media (min-width: 772px) {
+@media (min-width: 768px) {
   .site-list {
     flex-basis: 386px;
     font-size: 15px;
@@ -116,9 +116,9 @@
 
   .site-list__items {
     display: flex;
-    flex-basis: 427px;
+    width: 426px;
     padding-right: 0;
-    padding-left: 34px;
+    padding-left: 0;
     align-items: center;
     box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
   }
@@ -161,7 +161,7 @@
   }
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1150px) {
   .site-list {
     flex-basis: 435px;
     font-size: 17px;

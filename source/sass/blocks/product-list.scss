@@ -138,24 +138,28 @@
   }
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1150px) {
   .product-list {
-    margin: -11px 100px;
+    margin-top: -12px;
+    margin-left: 50px;
+    margin-right: 50px;
     height: 120px;
   }
 
   .product-list__link-first {
-    padding-top: 26px;
-    padding-bottom: 34px;
+    padding-top: 29px;
+    padding-bottom: 39px;
     padding-left: 37px;
     padding-right: 350px;
+    margin-bottom: 20px;
   }
 
   .product-list__link-second {
-    padding-top: 26px;
-    padding-bottom: 34px;
+    padding-top: 29px;
+    padding-bottom: 39px;
     padding-left: 37px;
     padding-right: 350px;
+    margin-bottom: 20px;
   }
 
   .product-list__icon-interior {
