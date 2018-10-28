@@ -21,27 +21,8 @@
   border: solid 2px #62d1ba;
 }
 
-.product-size input[type="submit"] {
-  font-size: 17px;
-  font-weight: bold;
-  line-height: 16px;
-  text-transform: uppercase;
-  border: none;
-  color: #ffffff;
-  width: 260px;
-  height: 52px;
-  background-color: #63d1bb;
-  margin-top: 31px;
-  margin-right: 0;
-  margin-left: 0;
-}
-
 @media (min-width: 768px) {
   .product-size__list label {
     width: 110px;
-  }
-
-  input[type="submit"] {
-    width: 349px;
   }
 }

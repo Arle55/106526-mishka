@@ -44,6 +44,7 @@
 
 .product-week__list-table {
   box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
+  border-radius: 1px;
   height: 41px;
 }
 
@@ -212,7 +213,10 @@
 
   .product-week__link {
     width: 286px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: 58px;
+    margin-bottom: auto;
+    margin-top: auto;
   }
 
   .product-week__zigzag {
@@ -272,9 +276,23 @@
   }
 
   .product-week__third-column {
-    width: 300px;
+    width: 525px;
     margin-top: -83px;
-    margin-left: 172px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .product-week__link {
+    width: 286px;
+    margin-left: 177px;
+    margin-right: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+
+  .product-week__price {
+    width: 350px;
+    margin-left: 147px;
   }
 
   .product-week__fourth-column {
@@ -285,7 +303,7 @@
     margin-bottom: 0;
     margin-top: -109px;
     margin-right: 0;
-    margin-left: 96px;
+    margin-left: auto;
   }
 
   .product-week__zigzag {

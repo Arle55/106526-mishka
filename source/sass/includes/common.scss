@@ -88,3 +88,16 @@ textarea::-webkit-input-placeholder {
   padding-top: 12px;
   padding-left: 16px;
 }
+
+textarea:-ms-input-placeholder {
+  color: rgba(68, 68, 68, 0.3);
+  font-size: 17px;
+  line-height: 18px;
+  padding-top: 12px;
+  padding-left: 16px;
+}
+
+input:-ms-input-placeholder {
+  color: rgba(68, 68, 68, 0.3);
+  font-size: 17px;
+}

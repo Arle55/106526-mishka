@@ -8,7 +8,7 @@
   display: none;
 }
 
-.index-popups__modal {
+.index-popups--modal {
   left: 50%;
   top: 185%;
   transform: translate(-50%, -50%);
@@ -16,7 +16,7 @@
   height: 336px;
 }
 
-.index-popups__modal--visible {
+.index-popups--modal-visible {
   display: block;
 }
 
@@ -26,14 +26,14 @@
     height: 336px;
   }
 
-  .index-popups__modal {
+  .index-popups--modal {
     top: 259%;
   }
 }
 
 
 @media (min-width: 1150px) {
-  .index-popups__modal {
+  .index-popups--modal {
     top: 271%;
   }
 }

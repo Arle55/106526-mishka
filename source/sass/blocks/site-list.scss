@@ -7,41 +7,11 @@
   margin: 0;
 }
 
-.site-list__items {
-  list-style: none;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
-
 .site-list__item {
   text-align: left;
   padding-top: 25px;
   padding-bottom: 30px;
   padding-left: 76px;
-  box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
-}
-
-.site-list__item-search {
-  position: relative;
-
-  display: block;
-
-  text-align: left;
-  padding-top: 25px;
-  padding-bottom: 30px;
-  padding-left: 76px;
-  box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
-}
-
-.site-list__item-cart {
-  position: relative;
-  display: block;
-  padding-top: 25px;
-  padding-bottom: 30px;
-  padding-left: 12px;
   box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
 }
 
@@ -56,41 +26,6 @@
   &:active {
     color: rgba(0, 0, 0, 0.3);
   }
-
-  &:hover .site-list__icon-search,
-  &:hover .site-list__icon-cart {
-    fill: #63d1bb;
-    opacity: 1;
-  }
-
-  &:active .site-list__icon-search,
-  &:active .site-list__icon-cart {
-    fill: #63d1bb;
-    opacity: 0.3;
-  }
-}
-
-
-.site-list__icon-search {
-  position: absolute;
-  top: 30px;
-  left: 32px;
-
-  width: 19px;
-  height: 18px;
-
-  opacity: 0.2;
-}
-
-.site-list__icon-cart {
-  position: absolute;
-  top: 30px;
-  left: 32px;
-
-  width: 21px;
-  height: 18px;
-
-  opacity: 0.2;
 }
 
 @media (min-width: 768px) {
@@ -114,48 +49,6 @@
     margin: 0;
   }
 
-  .site-list__items {
-    display: flex;
-    width: 426px;
-    padding-right: 0;
-    padding-left: 0;
-    align-items: center;
-    box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
-  }
-
-  .site-list__item-search {
-    width: 82px;
-    height: 88px;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-left: 26px;
-    border-left: 1px solid #ececec;
-    border-right: 1px solid #ececec;
-  }
-
-  .site-list__icon-search {
-    top: 36px;
-    left: 32px;
-  }
-
-  .site-list__text-search {
-    display: none;
-  }
-
-  .site-list__items-item {
-    box-shadow: none;
-    padding: 0;
-  }
-
-  .site-list__link-cart {
-    margin-left: 83px;
-  }
-
-  .site-list__icon-cart {
-    top: 3px;
-    left: 32px;
-  }
-
   .site-list__item-form {
     margin-left: 37px;
   }
@@ -177,19 +70,8 @@
     padding-top: 0;
   }
 
-  .site-list__items {
-    flex-basis: 426px;
-    padding: 0;
-    margin-right: 0;
-    margin-left: auto;
-  }
-
   .site-list__item-catalog {
     padding-left: 51px;
-  }
-
-  .site-list__item-cart {
-    padding-right: 51px;
   }
 
   .site-list__item-form {

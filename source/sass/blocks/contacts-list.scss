@@ -1,0 +1,49 @@
+.contacts-list {
+  margin-bottom: 37px;
+}
+
+.contacts-list__-item-first {
+  display: flex;
+}
+
+.contacts-list__item-second {
+  display: flex;
+  margin-top: 29px;
+}
+
+@media (min-width: 768px) {
+  .contacts-list {
+    width: 768px;
+    margin-bottom: 57px;
+    display: flex;
+  }
+
+  .contacts-list__item-first {
+    margin-left: 51px;
+  }
+
+  .contacts-list__item-second {
+    margin-left: 53px;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1150px) {
+  .contacts-list {
+    width: 525px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+  }
+
+  .contacts-list__item-first {
+    margin-left: 174px;
+    margin-top: 2px;
+    margin-right: 0;
+  }
+
+  .contacts-list__item-second {
+    margin-left: 175px;
+    margin-top: 29px;
+  }
+}

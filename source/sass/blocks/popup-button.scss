@@ -1,0 +1,20 @@
+.popups-button {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 16px;
+  text-transform: uppercase;
+  border: none;
+  color: #ffffff;
+  width: 260px;
+  height: 52px;
+  background-color: #63d1bb;
+  margin-top: 31px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  .popups-button {
+    width: 350px;
+  }
+}

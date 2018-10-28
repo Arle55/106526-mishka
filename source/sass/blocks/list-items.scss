@@ -1,0 +1,133 @@
+.list-items {
+  list-style: none;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.list-items__item-search {
+  position: relative;
+
+  display: block;
+
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  padding-left: 76px;
+  box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
+}
+
+.list-items__item-cart {
+  position: relative;
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  padding-left: 12px;
+  box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
+}
+
+.list-items__item-link {
+  color: #000000;
+  text-decoration: none;
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  &:active {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  &:hover .list-items__icon-search,
+  &:hover .list-items__icon-cart {
+    fill: #63d1bb;
+    opacity: 1;
+  }
+
+  &:active .list-items__icon-search,
+  &:active .list-items__icon-cart {
+    fill: #63d1bb;
+    opacity: 0.3;
+  }
+}
+
+.list-items__icon-search {
+  position: absolute;
+  top: 30px;
+  left: 32px;
+
+  width: 19px;
+  height: 18px;
+
+  opacity: 0.2;
+}
+
+.list-items__icon-cart {
+  position: absolute;
+  top: 30px;
+  left: 32px;
+
+  width: 21px;
+  height: 18px;
+
+  opacity: 0.2;
+}
+
+@media (min-width: 768px) {
+  .list-items {
+    display: flex;
+    width: 426px;
+    padding-right: 0;
+    padding-left: 0;
+    align-items: center;
+    box-shadow: 0 1px 0 #ececec, inset 0 1px 0 #ececec;
+  }
+
+  .list-items__item {
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .list-items__item-search {
+    width: 82px;
+    height: 88px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 26px;
+    border-left: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+  }
+
+  .list-items__link-cart {
+    margin-left: 83px;
+  }
+
+  .list-items__text-search {
+    display: none;
+  }
+
+  .list-items__icon-search {
+    top: 36px;
+    left: 32px;
+  }
+
+  .list-items__icon-cart {
+    top: 3px;
+    left: 32px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .list-items {
+    flex-basis: 426px;
+    padding: 0;
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .list-items__item-cart {
+    padding-right: 51px;
+  }
+}

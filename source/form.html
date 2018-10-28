@@ -25,8 +25,8 @@
       <div class="logo">
         <a class="main-nav__logo">
           <picture>
-            <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg" width="149" height="72">
-            <source media="(min-width: 768px)" srcset="img/logo-tablet.svg" width="112" height="46">
+            <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg">
+            <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
             <img class="page-header__logo-image" src="img/logo-mobile.svg" width="86" height="35" alt="Магазин товаров ручной работы «Мишка»">
           </picture>
         </a>
@@ -40,31 +40,30 @@
           <a class="site-list__item-link" href="form.html">Вязание на заказ</a>
         </li>
       </ul>
-      <ul class="site-list__items">
-        <li class="site-list__items-item site-list__item-search">
-          <a class="site-list__item-link site-list__link-search" href="#">
-            <span class="site-list__text-search">Поиск по сайту</span>
-            <svg class="site-list__icon-search">
+      <ul class="list-items">
+        <li class="list-items__item list-items__item-search">
+          <a class="list-items__item-link list-items__link-search" href="#">
+            <span class="list-items__text-search">Поиск по сайту</span>
+            <svg class="list-items__icon-search">
               <use xlink:href="#icon-search"></use>
             </svg>
           </a>
         </li>
-        <li class="site-list__items-item site-list__item-cart">
-          <a class="site-list__item-link site-list__link-cart" href="#">
+        <li class="list-items__item list-items__item-cart">
+          <a class="list-items__item-link list-items__link-cart" href="#">
             Корзина: пока пуста
-            <svg class="site-list__icon-cart">
+            <svg class="list-items__icon-cart">
               <use xlink:href="#icon-cart"></use>
             </svg>
           </a>
         </li>
       </ul>
-
       <ul class="site-items">
         <li class="site-items__item-new">
-          <a class="site-list__item-link" href="#">Новые поступления</a>
+          <a class="site-items__item-link" href="#">Новые поступления</a>
         </li>
         <li class="site-items__item-sale">
-          <a class="site-list__item-link" href="#">Распродажа</a>
+          <a class="site-items__item-link" href="#">Распродажа</a>
         </li>
       </ul>
 
@@ -145,14 +144,14 @@
         <div class="form-main__contacts-phone">
           <label for="tel-number" class="form-main__contacts-title">Тел</label>
           <input class="form-main__contacts-item form-main__contacts-item--phone" type="tel" name="tel-number" id="tel-number" placeholder="+7 ХХХ ХХХ ХХ ХХ*">
-          <svg class="form-main__contact-item--icon-phone">
+          <svg class="form-main__icon-phone">
             <use xlink:href="#icon-phone"></use>
           </svg>
         </div>
         <div class="form-main__contacts-email">
           <label for="email" class="form-main__contacts-title">E-mail</label>
           <input class="form-main__contacts-item form-main__contacts-item--email" type="email" name="email" id="email" placeholder="Ваш Email*">
-          <svg class="form-main__contact-item--icon-email">
+          <svg class="form-main__icon-email">
             <use xlink:href="#icon-mail"></use>
           </svg>
         </div>
@@ -169,25 +168,25 @@
     </form>
   </main>
 
-  <footer class="page-footer page-footer__catalog">
+  <footer class="page-footer">
     <div class="page-footer__social social">
       <ul class="social-list">
         <li class="social-list__item">
-          <a class="social-list__link social__link--instagram" target="_blank" href="#" aria-label="Мы в Инстаграме">
+          <a class="social-list__link social-list__link--instagram" target="_blank" href="#" aria-label="Мы в Инстаграме">
             <svg class="social-list__icon-insta">
               <use xlink:href="#icon-insta"></use>
             </svg>
           </a>
         </li>
         <li class="social-list__item">
-          <a class="social-list__link social__link--facebook" target="_blank" href="#" aria-label="Мы в Фейсбуке">
+          <a class="social-list__link social-list__link--facebook" target="_blank" href="#" aria-label="Мы в Фейсбуке">
             <svg class="social-list__icon-fb">
               <use xlink:href="#icon-fb"></use>
             </svg>
           </a>
         </li>
         <li class="social-list__item">
-          <a class="social-list__link social__link--twitter" target="_blank" href="#" aria-label="Мы в Твиттере">
+          <a class="social-list__link social-list__link--twitter" target="_blank" href="#" aria-label="Мы в Твиттере">
             <svg class="social-list__icon-twitter">
               <use xlink:href="#icon-twitter"></use>
             </svg>
@@ -195,10 +194,12 @@
         </li>
       </ul>
     </div>
-    <div class="page-footer__copyright page-footer__copyright-catalog">
-      <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive" aria-label="логотип HTML Academy">
-        <span class="copyright__text">Разработано</span>
-        <svg class="copyright__academy-logo"><use xlink:href="#logo-htmlacademy"></use></svg>
+    <div class="page-footer__copyright copyright-catalog">
+      <a class="button copyright-catalog__link" href="https://htmlacademy.ru/intensive/adaptive" aria-label="логотип HTML Academy">
+        <span class="copyright-catalog__text">Разработано</span>
+        <svg class="copyright-catalog__academy-logo">
+          <use xlink:href="#logo-htmlacademy"></use>
+        </svg>
       </a>
     </div>
 
@@ -210,6 +211,6 @@
       </a>
     </div>
   </footer>
-</body>
+  </body>
 
 </html>

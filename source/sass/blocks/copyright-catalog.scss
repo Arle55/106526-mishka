@@ -1,0 +1,48 @@
+.copyright-catalog__link {
+  display: block;
+
+  position: relative;
+
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  line-height: 18px;
+
+  margin-top: 31px;
+  margin-left: 68px;
+
+  fill: #63d1bb;
+
+  &:hover {
+    fill: #46c1ae;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.copyright-catalog__text {
+  padding-bottom: 17px;
+}
+
+.copyright-catalog__link .copyright-catalog__academy-logo {
+  position: absolute;
+  width: 182px;
+  height: 34px;
+  transform: translateY(50%);
+  bottom: 41%;
+  left: 158px;
+}
+
+@media (min-width: 768px) {
+  .copyright-catalog__link {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1150px) {
+  .copyright-catalog {
+    margin-right: 0;
+  }
+}

@@ -191,19 +191,19 @@ input[type="submit"] {
   }
 }
 
-.form-main__contacts-item:hover + .form-main__contact-item--icon-phone,
-.form-main__contacts-item:hover + .form-main__contact-item--icon-email {
+.form-main__contacts-item:hover + .form-main__icon-phone,
+.form-main__contacts-item:hover + .form-main__icon-email {
   fill: #62d1ba;
   opacity: 1;
 }
 
-.form-main__contacts-item:active + .form-main__contact-item--icon-phone,
-.form-main__contacts-item:active + .form-main__contact-item--icon-email {
+.form-main__contacts-item:active + .form-main__icon-phone,
+.form-main__contacts-item:active + .form-main__icon-email {
   fill: #62d1ba;
   opacity: 1;
 }
 
-.form-main__contact-item--icon-phone {
+.form-main__icon-phone {
   position: absolute;
   top: 36px;
   left: 228px;
@@ -213,7 +213,7 @@ input[type="submit"] {
   opacity: 0.2;
 }
 
-.form-main__contact-item--icon-email {
+.form-main__icon-email {
   position: absolute;
   top: 34px;
   left: 224px;
@@ -376,7 +376,7 @@ input[type="submit"] {
     margin-left: 132px;
   }
 
-  .form-main__contact-item--icon-phone {
+  .form-main__icon-phone {
     top: 61px;
     left: 666px;
   }
@@ -392,7 +392,7 @@ input[type="submit"] {
     margin-left: 107px;
   }
 
-  .form-main__contact-item--icon-email {
+  .form-main__icon-email {
     top: 18px;
     left: 614px;
   }
@@ -513,11 +513,11 @@ input[type="submit"] {
     margin-left: 51px;
   }
 
-  .form-main__contact-item--icon-phone {
+  .form-main__icon-phone {
     left: 891px;
   }
 
-  .form-main__contact-item--icon-email {
+  .form-main__icon-email {
     top: 15px;
     left: 777px;
   }
