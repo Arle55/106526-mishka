@@ -1,3 +1,16 @@
+.page-main {
+  width: 322px;
+  margin: 0 auto;
+}
+
+.page-main a {
+  text-decoration: none;
+}
+
+.page-main a:focus {
+  outline: 1px solid #46c1ae;
+}
+
 .page-main__contacts {
   width: 320px;
   display: flex;
@@ -76,6 +89,10 @@
 }
 
 @media (min-width: 768px) {
+  .page-main {
+    width: 772px;
+  }
+
   .page-main__contacts {
     width: 768px;
     margin-top: 56px;
@@ -118,6 +135,10 @@
 }
 
 @media (min-width: 1150px) {
+  .page-main {
+    width: 1250px;
+  }
+
   .page-main__contacts-wrapper {
     width: 1050px;
     display: flex;

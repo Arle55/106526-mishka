@@ -28,12 +28,10 @@
   padding: 0;
   width: 130px;
   height: 52px;
-  background-color: #ffffff;
+
   background-image: url("../img/icon-left-arrow.svg");
   background-repeat: no-repeat;
   background-position: center;
-  border: solid 1px #ececec;
-  outline: none;
 
   &:last-child {
     margin-left: -1px;
@@ -52,13 +50,34 @@
 }
 
 .slider__toggle {
-  display: none;
+  border: solid 1px #ececec;
+  background-color: transparent;
+  width: 130px;
+  height: 52px;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+
+  &:focus {
+    outline: 1px solid #46c1ae;
+  }
 }
 
 @media (min-width: 768px) {
   .slider-list {
     margin-top: 26px;
   }
+
+  .slider__toggle {
+    border: none;
+    width: 88px;
+  }
+
 
   .slider__toggles {
     width: 176px;
@@ -71,6 +90,9 @@
   .slider__toggle-container {
     border: none;
     width: 88px;
+    &:focus {
+      opacity: 0.6;
+    }
   }
 }
 

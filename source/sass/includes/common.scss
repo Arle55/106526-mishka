@@ -2,6 +2,7 @@
   font-weight: normal;
   font-family: "Open Sans";
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff");
 }
 
@@ -9,6 +10,7 @@
   font-weight: bold;
   font-family: "Open Sans";
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/opensansbold.woff2") format("woff2"), url("../fonts/opensansbold.woff") format("woff");
 }
 
@@ -24,80 +26,7 @@ body {
   background-color: #ffffff;
 }
 
-h1,
-h2 {
-  font-size: 27px;
-  text-align: left;
-
-  line-height: 30px;
-  color: black;
-}
-
-h3 {
-  padding-bottom: 0;
-  padding-top: 8px;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 17px;
-  line-height: 20px;
-  color: #63d1bb;
-  text-transform: uppercase;
-}
-
-a {
-  text-decoration: none;
-}
-
-p {
-  font-size: 15px;
-  line-height: 30px;
-  color: #444444;
-  font-weight: normal;
-}
-
 img {
   max-width: 100%;
   height: auto;
-}
-
-input {
-  line-height: 18px;
-}
-
-input[type="radio"] {
-  display: none;
-}
-
-fieldset {
-  border: none;
-}
-
-textarea {
-  resize: none;
-}
-
-input::-webkit-input-placeholder {
-  opacity: 0.3;
-  font-size: 17px;
-}
-
-textarea::-webkit-input-placeholder {
-  opacity: 0.3;
-  font-size: 17px;
-  line-height: 18px;
-  padding-top: 12px;
-  padding-left: 16px;
-}
-
-textarea:-ms-input-placeholder {
-  color: rgba(68, 68, 68, 0.3);
-  font-size: 17px;
-  line-height: 18px;
-  padding-top: 12px;
-  padding-left: 16px;
-}
-
-input:-ms-input-placeholder {
-  color: rgba(68, 68, 68, 0.3);
-  font-size: 17px;
 }

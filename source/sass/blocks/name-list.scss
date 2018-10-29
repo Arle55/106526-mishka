@@ -14,16 +14,29 @@
   width: 260px;
   height: 52px;
   margin-bottom: 18px;
+  padding-left: 0;
   outline: none;
   border-top: 0;
   border-left: 0;
   border-right: 0;
   box-shadow: inset 0 -2px 0 black;
+  font-size: 19px;
+  line-height: 18px;
 
   &:hover,
   &:focus {
     box-shadow: inset 0 -2px 0 #62d1ba;
   }
+}
+
+.name-list__name-input::-webkit-input-placeholder {
+  opacity: 0.3;
+  font-size: 17px;
+}
+
+.name-list__name-input:-ms-input-placeholder {
+  color: rgba(68, 68, 68, 0.3);
+  font-size: 17px;
 }
 
 @media (min-width: 768px) {
@@ -41,21 +54,27 @@
   }
 
   .name-list__name-input {
-    width: 428px;
+    width: 412px;
     margin-bottom: 20px;
+    padding-left: 17px;
   }
 
   .name-list__name-input::-webkit-input-placeholder {
     font-size: 19px;
-    padding-left: 16px;
+    padding-left: 0;
+  }
+
+  .name-list__name-input:-ms-input-placeholder {
+    font-size: 19px;
+    padding-left: 0;
   }
 
   .name-list__input-second {
-    width: 375px;
+    width: 359px;
   }
 
   .name-list__input-third {
-    width: 375px;
+    width: 359px;
   }
 }
 
@@ -65,14 +84,14 @@
   }
 
   .name-list__name-input {
-    width: 626px;
+    width: 610px;
   }
 
   .name-list__input-second {
-    width: 581px;
+    width: 557px;
   }
 
   .name-list__input-third {
-    width: 581px;
+    width: 557px;
   }
 }

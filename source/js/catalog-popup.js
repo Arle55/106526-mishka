@@ -10,11 +10,11 @@ for (var i = 0; i < link.length; i++) {
   });
 }
 
-window.addEventListener("keydown", function (event) {
+window.addEventListener('keydown', function (event) {
   if (event.keyCode === 27) {
     event.preventDefault();
-    if (popup.classList.contains("catalog-popups--modal-visible")) {
-      popup.classList.remove("catalog-popups--modal-visible");
+    if (popup.classList.contains('catalog-popups--modal-visible')) {
+      popup.classList.remove('catalog-popups--modal-visible');
       overlay.classList.remove('overlay__modal');
     }
   }

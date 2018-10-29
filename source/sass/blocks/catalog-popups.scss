@@ -1,5 +1,5 @@
 .catalog-popups {
-  position: absolute;
+  position: fixed;
 
   background-color: white;
   box-shadow: 0 5px 10px rgba(0, 1, 1, 0.25);
@@ -10,7 +10,7 @@
 
 .catalog-popups--modal {
   left: 50%;
-  top: 144%;
+  top: 50%;
   transform: translate(-50%, -50%);
   width: 320px;
   height: 336px;
@@ -24,16 +24,5 @@
   .catalog-popups {
     width: 566px;
     height: 336px;
-  }
-
-  .catalog-popups--modal {
-    top: 189%;
-  }
-}
-
-
-@media (min-width: 1150px) {
-  .catalog-popups__modal {
-    top: 194%;
   }
 }

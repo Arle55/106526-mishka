@@ -3,7 +3,10 @@
 
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin-top: 52px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
 }
 
 .reviews__title {
@@ -62,7 +65,7 @@
 @media (min-width: 768px) {
   .reviews {
     width: 768px;
-    margin-top: 26px;
+    margin-top: 85px;
     flex-direction: row;
     flex-wrap: wrap;
     background-image: url("../img/review@1x.jpg");
@@ -108,7 +111,7 @@
 @media (min-width: 1150px) {
   .reviews {
     width: 1050px;
-    margin-top: 35px;
+    margin-top: 91px;
   }
 
   .reviews__button {

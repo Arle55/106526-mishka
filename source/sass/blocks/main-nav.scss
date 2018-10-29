@@ -10,6 +10,7 @@
 }
 
 .main-nav__logo {
+  width: 86px;
   display: block;
   margin-left: 117px;
 
@@ -21,7 +22,6 @@
     opacity: 0.3;
   }
 }
-
 
 @media (min-width: 768px) {
   .main-nav {
@@ -37,6 +37,7 @@
   }
 
   .main-nav__logo {
+    width: 112px;
     margin-left: 0;
   }
 
@@ -49,6 +50,10 @@
 @media (min-width: 1150px) {
   .main-nav {
     width: 1150px;
+  }
+
+  .main-nav__logo {
+    width: 149px;
   }
 
   .main-nav__logo img {

@@ -9,7 +9,6 @@
   background-color: #ffffff;
   border: solid 2px #444444;
   text-transform: uppercase;
-  outline: none;
 
   &:hover {
     color: #ffffff;
@@ -27,6 +26,7 @@
   line-height: 30px;
   font-weight: bold;
   text-align: left;
+  color: black;
 }
 
 @mixin form-title {

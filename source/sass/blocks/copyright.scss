@@ -1,6 +1,14 @@
 .button {
   text-decoration: none;
-  outline: none;
+}
+
+.copyright {
+  position: relative;
+  width: 182px;
+}
+
+.copyright a:focus {
+  opacity: 0.3;
 }
 
 .copyright__link {
@@ -13,7 +21,7 @@
   font-size: 19px;
   line-height: 18px;
 
-  margin-top: 31px;
+  margin-top: 24px;
   margin-left: 68px;
 
   fill: #63d1bb;
@@ -28,6 +36,10 @@
 }
 
 .copyright__text {
+  font-size: 19px;
+  line-height: 18px;
+  color: #000000;
+  font-weight: bold;
   padding-bottom: 17px;
 }
 
@@ -41,7 +53,22 @@
 }
 
 @media (min-width: 768px) {
+  .copyright {
+    width: 302px;
+    margin-top: -13px;
+  }
+
   .copyright__link {
     margin-top: 0;
+  }
+}
+
+@media (min-width: 1150px) {
+  .copyright {
+    margin-right: 50px;
+  }
+
+  .copyright--footer {
+    margin-right: 0;
   }
 }

@@ -8,11 +8,11 @@ link.addEventListener('click', function (event) {
   overlay.classList.add('overlay__modal');
 });
 
-window.addEventListener("keydown", function (event) {
+window.addEventListener('keydown', function (event) {
   if (event.keyCode === 27) {
     event.preventDefault();
-    if (popup.classList.contains("index-popups--modal-visible")) {
-      popup.classList.remove("index-popups--modal-visible");
+    if (popup.classList.contains('index-popups--modal-visible')) {
+      popup.classList.remove('index-popups--modal-visible');
       overlay.classList.remove('overlay__modal');
     }
   }

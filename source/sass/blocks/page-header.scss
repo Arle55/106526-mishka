@@ -5,7 +5,16 @@
   margin: 0 auto;
 }
 
+.page-header a:focus {
+  outline: none;
+  opacity: 0.3;
+}
+
 .page-header__delivery-text {
+  font-size: 15px;
+  line-height: 30px;
+  color: #444444;
+  font-weight: normal;
   display: none;
 }
 

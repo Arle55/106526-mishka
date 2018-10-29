@@ -19,6 +19,13 @@
 }
 
 .product-week__week-title {
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 17px;
+  line-height: 20px;
+  color: #63d1bb;
+  text-transform: uppercase;
   padding-left: 31px;
   padding-top: 5px;
 }
@@ -28,6 +35,9 @@
   padding-left: 32px;
   margin-top: 24px;
   padding-right: 40px;
+  font-size: 15px;
+  color: #444444;
+  font-weight: normal;
 }
 
 .product-week__list {
@@ -61,7 +71,16 @@
   padding-left: 16px;
 }
 
+.product-week__first-column {
+  flex-grow: 3;
+}
+
+.product-week__second-column {
+  flex-grow: 3;
+}
+
 .product-week__third-column {
+  flex-grow: 3;
   order: 1;
 }
 
@@ -144,22 +163,29 @@
   }
 
   .product-week__second-column {
-    margin-left: 51px;
+    margin-left: 47px;
     width: 334px;
+    min-height: 238px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 158px;
   }
 
   .product-week__third-column {
     width: 288px;
     display: flex;
+    justify-content: flex-start;
     flex-direction: column;
-    margin-top: -95px;
-    margin-left: 50px;
+    flex-grow: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: -117px;
   }
 
   .product-week__fourth-column {
     width: 334px;
+    height: 404px;
+    margin-right: 49px;
     margin-top: 7px;
     margin-bottom: 0;
     margin-left: 0;
@@ -172,7 +198,7 @@
     margin-bottom: 0;
     margin-top: 0;
     padding-top: 41px;
-    padding-left: 0;
+    margin-left: 13px;
   }
 
   .product-week__week-title {
@@ -205,27 +231,31 @@
   }
 
   .product-week__price {
+    width: 286px;
     font-size: 20px;
     line-height: 24px;
-    margin-top: -16px;
+    margin-top: 8px;
     margin-bottom: 34px;
+    margin-left: 50px;
   }
 
   .product-week__link {
     width: 286px;
-    margin-left: auto;
     margin-right: 58px;
     margin-bottom: auto;
     margin-top: auto;
+    margin-left: 48px;
   }
 
   .product-week__zigzag {
     width: 772px;
+    order: 6;
+    margin-top: 55px;
   }
 
   .product-week__zigzag-icon {
     left: 0;
-    top: 51px;
+    top: 0;
     width: 771px;
     height: 15px;
   }
@@ -250,7 +280,7 @@
     margin-right: 0;
     margin-left: 0;
     padding-top: 56px;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-bottom: 0;
   }
 
@@ -273,11 +303,12 @@
   .product-week__second-column {
     flex-basis: 288px;
     margin-left: 95px;
+    margin-bottom: 170px;
   }
 
   .product-week__third-column {
     width: 525px;
-    margin-top: -83px;
+    margin-top: -107px;
     margin-left: 0;
     margin-right: 0;
   }
@@ -308,11 +339,12 @@
 
   .product-week__zigzag {
     width: 1050px;
+    margin-top: 73px;
   }
 
   .product-week__zigzag-icon {
     left: 0;
-    top: 84px;
+    top: 0;
 
     width: 1050px;
     height: 23px;
