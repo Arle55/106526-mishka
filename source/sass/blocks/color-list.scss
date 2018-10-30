@@ -43,7 +43,7 @@
   opacity: 0.3;
 }
 
-.color-list__color-input[type=checkbox]:focus + label::before {
+.color-list__color-input[type="checkbox"]:focus + label::before {
   border: solid 2px #62d1ba;
 }
 

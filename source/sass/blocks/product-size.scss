@@ -21,6 +21,10 @@
   border: solid 2px #62d1ba;
 }
 
+.size[type="radio"]:focus + label {
+  border: solid 2px rgba(68, 68, 68, 0.3);
+}
+
 @media (min-width: 768px) {
   .product-size__list label {
     width: 110px;

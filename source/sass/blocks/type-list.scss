@@ -57,7 +57,7 @@
   height: 16px;
 }
 
-.type-list__type-input:focus + label::before,
+.type-list__type-input[type="radio"]:focus + label::before,
 .type-list__type-input:checked:focus + label::before {
   border: solid 2px #62d1ba;
 }
