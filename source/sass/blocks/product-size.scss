@@ -11,19 +11,23 @@
   line-height: 16px;
   color: #444444;
   border: solid 2px rgba(68, 68, 68, 0.1);
-
-  &:hover {
-    border: solid 2px rgba(68, 68, 68, 0.3);
-  }
 }
 
-.product-size__list input[type="radio"]:checked + label {
+.product-size__list input[type="radio"]:checked + label:hover,
+.product-size__list input[type="radio"] + label:hover {
+  border: solid 2px rgba(68, 68, 68, 0.3);
+}
+
+.product-size__list input[type="radio"]:checked + label:active,
+.product-size__list input[type="radio"] + label:active {
   border: solid 2px #62d1ba;
 }
 
-.size[type="radio"]:focus + label {
+.product-size__list input[type="radio"]:checked:focus + label,
+.product-size__list input[type="radio"]:focus + label {
   border: solid 2px rgba(68, 68, 68, 0.3);
 }
+
 
 @media (min-width: 768px) {
   .product-size__list label {
